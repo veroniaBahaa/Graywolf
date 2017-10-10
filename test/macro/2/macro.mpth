@@ -1,0 +1,10 @@
+The paths:
+##############################################
+
+The nets:
+##############################################
+net   1:A xspan:230 yspan:115 length:345 numpins:3
+net   2:B xspan:240 yspan:70 length:310 numpins:2
+net   3:D xspan:210 yspan:10 length:220 numpins:2
+net   4:C xspan:10 yspan:75 length:85 numpins:2
+net   5:F xspan:260 yspan:60 length:320 numpins:2

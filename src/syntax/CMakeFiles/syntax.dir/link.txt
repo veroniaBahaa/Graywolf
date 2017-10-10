@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/syntax.dir/main.c.o CMakeFiles/syntax.dir/output.c.o CMakeFiles/syntax.dir/readcells.c.o CMakeFiles/syntax.dir/__/date/date.c.o  -o syntax -rdynamic ../Ylib/libycadgraywolf.so -lX11 -lm -Wl,-rpath,/home/veronia/EDA/graywolf-master/src/Ylib: 

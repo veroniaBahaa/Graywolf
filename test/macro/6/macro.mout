@@ -1,0 +1,1600 @@
+
+TimberWolfMC version:v2.2 date:Mon May 25 21:18:34 EDT 1992
+Authors: Carl Sechen, Bill Swartz, Kai-Win Lee
+         Dahe Chen, and Jimmy Lam
+         Yale University
+
+
+TimberWolfMC switches:
+	Graphics mode on
+	TimberWolfMC will inherit window
+
+
+
+
+
+TimberWolf instructed to do placement of circuit:<macro>
+TimberWolf instructed to generate channel graph for circuit:<macro>
+default.tracks.per.channel: 0
+TimberWolf instructed to do global route for circuit:<macro>
+TimberWolf instructed to do post-placement compaction for circuit:<macro>
+track.pitch.x: 10
+track.pitch.y: 10
+chip.aspect.ratio: 1
+init_acc: 1.00
+
+The rand generator seed was: 1188705869
+
+
+The number of nets with  1 pins is 2
+The number of nets with  2 pins is 2
+The number of nets with  3 pins is 4
+The number of nets with  4 pins is 1
+The number of nets with 100 pins or more is 0
+The total number of nets is: 9
+The maximum number of pins on a single net is: 4
+/usr/local/lib/graywolf/bin/TimberWolfMC -qw macro 77594626
+Program TimberWolfMC returned with exit code:1
+de : 2.43e+02      std deviation short side : 7.18e+01
+maxBinXG automatically set to:6
+maxBinYG automatically set to:6
+bdxlength:531    bdylength:531
+
+
+
+THE ROUTE COST OF THE CURRENT PLACEMENT: 16505
+THE PENALTY OF THE CURRENT PLACEMENT: 749
+
+
+*************************************
+AVERAGE NUMBER OF CELLS PER NET: 2.000000
+*************************************
+
+
+
+
+
+**********************************************
+
+The average number of distinct nets per cell is
+given by:   1.00
+
+The average number of cells per net is
+given by:   2.00
+
+The average number of other cells per net is
+given by:   1.00
+
+The ratio of total cells specified per net to
+numcells is given by:   1.50
+
+The average number of cells connected to a cell is
+given by:   1.00
+
+**********************************************
+
+
+Expected Wire Reduction Relative to Random:  2.00
+
+[analyze]:
+
+Wire ratio updated to:2.00
+
+min_xalpha:53.10
+min_yalpha:53.10
+High temperature randomization and controller initialization...
+start_core: 1.00e-01 end_overcore: 5.00e-02
+
+bdxlength:535    bdylength:535
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ -2 1.00e+30 5.65e+03 3.23e+05 1.26e+00 7.17e+02 6.37e+03 1.02e+00
+timeFactor timepenal timecost  var perDone
+1.00e+00 0.00e+00 0.00e+00 0.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  6   0/  0   2/  2   0/  0   0/  0   3/  3   0/  0   2/  2   13/ 16  0.81
+
+
+
+AVERAGE CELL SIDE WITHOUT ROUTING AREA: 351
+
+
+
+Configuration Data
+Internal Channel Length:1432
+Average Channel Width (un-normalized):4.997905
+
+Average Channel Width:40.888889
+
+bdxlength:611    bdylength:611
+
+
+
+parameter adjust: route:5712  penalty:891
+
+
+OVERLAP FACTOR (COMPUTED) : 1.262109
+start_overlap: 7.00e-01 end_overlap: 0.00e+00
+
+bdxlength:736    bdylength:736
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ -1 1.00e+30 5.82e+03 4.06e+05 8.80e+00 5.61e+03 1.14e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 0.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  6   0/  0   5/  5   0/  0   0/  0   0/  0   0/  0   1/  1   12/ 16  0.75
+
+
+
+The average  random  wirelength is:      10306
+The expected optimum wirelength is:       5153
+
+
+
+
+The New Cost Values after readjustment:
+
+route:5823  penalty:5607
+
+
+Statistic collection...
+bdxlength:759    bdylength:759
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+  0 2.26e+03 6.73e+03 4.21e+05 8.94e+00 5.80e+03 1.25e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 0.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  5/  6   0/  0   4/  4   0/  0   0/  0   0/  0   0/  0   2/  3   11/ 16  0.69
+
+
+
+TimberWolf Cell Placement Ready for Action
+
+bdxlength:863    bdylength:863
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+  1 3.49e+03 8.55e+03 7.18e+05 1.04e+01 8.84e+03 1.74e+04 1.09e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.00e-03
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  9/  9   0/  0   3/  3   0/  0   0/  0   0/  0   0/  0   1/  1   13/ 16  0.81
+
+bdxlength:864    bdylength:864
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+  2 3.72e+03 5.80e+03 7.08e+05 1.21e+01 1.02e+04 1.60e+04 1.09e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.60e-02
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  5/  5   0/  0   5/  5   0/  0   0/  0   2/  2   0/  0   0/  0   12/ 16  0.75
+
+bdxlength:736    bdylength:736
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+  3 3.27e+03 8.02e+03 5.28e+05 1.42e+01 1.03e+04 1.83e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.40e-02
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  4   0/  0   7/  7   0/  0   0/  0   0/  0   0/  0   3/  3   14/ 16  0.88
+
+bdxlength:800    bdylength:800
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+  4 4.92e+03 6.17e+03 6.57e+05 1.71e+01 1.39e+04 2.00e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.20e-02
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  5/  6   0/  1   5/  5   0/  0   0/  0   0/  0   0/  0   1/  1   11/ 16  0.69
+
+bdxlength:721    bdylength:721
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+  5 6.14e+03 6.21e+03 4.48e+05 1.89e+01 1.26e+04 1.88e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.00e-02
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  7   1/  1   5/  5   0/  0   0/  0   0/  0   0/  0   1/  1   13/ 16  0.81
+
+bdxlength:720    bdylength:720
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+  6 4.42e+03 8.44e+03 6.72e+05 2.56e+01 2.10e+04 2.95e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.80e-02
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  7/  7   0/  0   4/  5   0/  0   0/  0   1/  1   0/  0   2/  2   14/ 16  0.88
+
+bdxlength:728    bdylength:728
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+  7 2.75e+03 7.26e+03 2.58e+05 2.13e+01 1.08e+04 1.81e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.60e-02
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  8/  8   0/  0   5/  5   0/  0   0/  0   0/  0   0/  0   2/  2   15/ 16  0.94
+
+bdxlength:804    bdylength:804
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+  8 3.17e+03 7.67e+03 5.52e+05 2.35e+01 1.75e+04 2.51e+04 1.08e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.40e-02
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  5/  5   0/  0   3/  3   0/  0   0/  0   1/  1   0/  0   3/  3   12/ 16  0.75
+
+bdxlength:813    bdylength:813
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+  9 2.20e+03 5.38e+03 8.03e+05 3.10e+01 2.77e+04 3.31e+04 1.09e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.20e-02
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  8/  9   0/  0   2/  2   0/  0   0/  0   0/  0   0/  0   2/  2   12/ 16  0.75
+
+bdxlength:748    bdylength:748
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 10 1.43e+03 7.30e+03 6.31e+05 3.93e+01 3.12e+04 3.85e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.00e-02
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  3   1/  1   8/  8   0/  0   0/  0   0/  0   0/  0   1/  1   12/ 16  0.75
+
+bdxlength:674    bdylength:674
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 11 1.67e+03 6.28e+03 4.79e+05 4.83e+01 3.35e+04 3.97e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.80e-02
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  6   0/  0   4/  4   0/  0   0/  0   0/  0   0/  0   2/  2   10/ 16  0.62
+
+bdxlength:752    bdylength:752
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 12 1.56e+03 5.41e+03 3.96e+05 4.84e+01 3.04e+04 3.58e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.60e-02
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  8   1/  2   2/  3   0/  0   0/  0   0/  0   0/  0   2/  3   11/ 17  0.65
+
+bdxlength:813    bdylength:813
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 13 2.96e+03 5.67e+03 3.33e+05 4.84e+01 2.79e+04 3.36e+04 1.09e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.04e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  6   0/  1   0/  2   0/  0   0/  0   0/  0   0/  0   3/  3    6/ 16  0.38
+
+bdxlength:846    bdylength:846
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 14 4.77e+03 6.50e+03 2.77e+05 4.84e+01 2.55e+04 3.20e+04 1.10e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.12e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  4   0/  1   3/  3   0/  0   0/  0   0/  0   0/  0   4/  4    8/ 16  0.50
+
+bdxlength:832    bdylength:832
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 15 5.84e+03 7.14e+03 5.69e+05 5.27e+01 3.98e+04 4.69e+04 1.09e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.20e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  4   1/  2   3/  3   0/  0   0/  0   1/  1   0/  0   4/  4   11/ 16  0.69
+
+bdxlength:731    bdylength:731
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 16 5.96e+03 7.61e+03 3.81e+05 5.36e+01 3.31e+04 4.07e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.28e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  4   0/  2   6/  6   0/  0   0/  0   0/  0   0/  0   1/  1    9/ 16  0.56
+
+bdxlength:770    bdylength:770
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 17 4.54e+03 6.20e+03 4.50e+05 5.63e+01 3.78e+04 4.40e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.36e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  7/  8   0/  0   3/  4   0/  0   0/  0   1/  1   0/  0   1/  1   12/ 16  0.75
+
+bdxlength:777    bdylength:777
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 18 3.96e+03 6.28e+03 4.30e+05 5.73e+01 3.76e+04 4.38e+04 1.08e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.44e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  7   1/  2   3/  3   0/  0   0/  0   1/  1   0/  0   1/  1   10/ 16  0.62
+
+bdxlength:726    bdylength:726
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 19 1.65e+03 6.63e+03 6.75e+05 6.24e+01 5.13e+04 5.79e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.52e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  5   0/  1   5/  5   0/  0   0/  0   0/  0   0/  0   2/  3   11/ 16  0.69
+
+bdxlength:675    bdylength:675
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 20 3.38e+03 5.91e+03 4.50e+05 6.85e+01 4.59e+04 5.18e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.60e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  3   1/  2   3/  4   0/  0   0/  0   2/  3   1/  1   0/  3    8/ 18  0.44
+
+bdxlength:775    bdylength:775
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 21 1.15e+03 4.93e+03 3.54e+05 6.85e+01 4.07e+04 4.57e+04 1.08e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.68e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  6   0/  0   4/  5   0/  0   0/  0   0/  0   0/  0   2/  3   12/ 16  0.75
+
+bdxlength:787    bdylength:787
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 22 6.91e+02 6.04e+03 3.33e+05 6.85e+01 3.95e+04 4.56e+04 1.08e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.76e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  4   0/  1   1/  4   0/  0   0/  0   0/  0   0/  0   0/  3    3/ 16  0.19
+
+bdxlength:846    bdylength:846
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 23 1.08e+03 5.55e+03 3.75e+05 6.85e+01 4.19e+04 4.75e+04 1.10e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.84e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  4   1/  2   1/  5   0/  0   0/  0   0/  0   0/  0   1/  1    5/ 16  0.31
+
+bdxlength:768    bdylength:768
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 24 1.10e+03 5.09e+03 2.92e+05 6.85e+01 3.70e+04 4.21e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.92e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  6   0/  5   0/  0   0/  0   0/  0   0/  0   0/  0   1/  4    2/ 16  0.12
+
+bdxlength:762    bdylength:762
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 25 1.12e+03 5.09e+03 2.86e+05 6.84e+01 3.66e+04 4.16e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.00e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  3   0/  1   0/  2   0/  0   0/  0   0/  0   0/  0   0/  6    0/ 16  0.00
+
+bdxlength:761    bdylength:761
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 26 1.16e+03 5.23e+03 2.74e+05 6.65e+01 3.48e+04 4.00e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.08e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  7   0/  4   0/  1   0/  0   0/  0   1/  1   0/  0   0/  1    1/ 17  0.06
+
+bdxlength:751    bdylength:751
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 27 1.17e+03 5.53e+03 3.13e+05 6.43e+01 3.60e+04 4.15e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.16e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  4   0/  1   1/  3   0/  0   0/  0   1/  1   0/  0   0/  2    2/ 16  0.12
+
+bdxlength:759    bdylength:759
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 28 1.20e+03 5.24e+03 3.57e+05 6.27e+01 3.74e+04 4.27e+04 1.08e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.24e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  6   0/  3   0/  1   0/  0   0/  0   0/  0   0/  0   0/  4    2/ 17  0.12
+
+bdxlength:809    bdylength:809
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 29 1.20e+03 5.67e+03 3.46e+05 6.17e+01 3.63e+04 4.19e+04 1.09e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.32e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  5   0/  0   2/  5   0/  0   0/  0   1/  1   0/  0   0/  2    7/ 16  0.44
+
+bdxlength:749    bdylength:749
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 30 1.22e+03 5.79e+03 2.50e+05 5.96e+01 2.98e+04 3.56e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.40e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  4   0/  1   1/  5   0/  0   0/  0   0/  0   0/  0   0/  2    2/ 16  0.12
+
+bdxlength:817    bdylength:817
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 31 1.22e+03 6.05e+03 3.11e+05 5.69e+01 3.17e+04 3.77e+04 1.09e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.48e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  7   1/  4   1/  1   0/  0   0/  0   0/  0   0/  0   3/  3    7/ 17  0.41
+
+bdxlength:862    bdylength:862
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 32 1.24e+03 5.71e+03 3.39e+05 5.35e+01 3.11e+04 3.68e+04 1.10e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.56e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  3   2/  3   0/  0   0/  0   0/  0   0/  0   2/  2    4/ 17  0.24
+
+bdxlength:868    bdylength:868
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 33 1.24e+03 5.71e+03 3.17e+05 4.95e+01 2.79e+04 3.36e+04 1.10e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.64e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  3   0/  2   0/  4   0/  0   0/  0   0/  0   0/  0   4/  4    4/ 16  0.25
+
+bdxlength:841    bdylength:841
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 34 1.25e+03 6.25e+03 2.96e+05 4.40e+01 2.39e+04 3.02e+04 1.09e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.72e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  3   0/  1   1/  4   0/  0   0/  0   1/  1   0/  0   2/  2    4/ 16  0.25
+
+bdxlength:729    bdylength:729
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 35 1.27e+03 6.50e+03 2.78e+05 3.96e+01 2.09e+04 2.74e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.80e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  5   0/  2   1/  5   0/  0   0/  0   0/  0   0/  0   1/  2    3/ 16  0.19
+
+bdxlength:755    bdylength:755
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 36 1.31e+03 5.79e+03 2.20e+05 3.40e+01 1.60e+04 2.18e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.88e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  3   2/  5   0/  0   0/  0   0/  0   0/  0   0/  1    2/ 17  0.12
+
+bdxlength:845    bdylength:845
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 37 1.29e+03 6.37e+03 3.03e+05 2.90e+01 1.59e+04 2.23e+04 1.09e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 2.96e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  5   0/  2   5/  6   0/  0   0/  0   0/  0   0/  0   1/  1    7/ 16  0.44
+
+bdxlength:763    bdylength:763
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 38 1.32e+03 5.97e+03 3.50e+05 2.82e+01 1.67e+04 2.26e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.04e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  7   0/  3   2/  2   0/  0   0/  0   0/  0   0/  0   1/  3    6/ 17  0.35
+
+bdxlength:685    bdylength:685
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 39 1.30e+03 7.02e+03 4.63e+05 2.82e+01 1.92e+04 2.62e+04 1.04e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.12e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  7/  7   0/  0   3/  6   0/  0   0/  0   0/  0   0/  0   0/  0   10/ 16  0.62
+
+bdxlength:735    bdylength:735
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 40 1.29e+03 6.64e+03 5.35e+05 2.82e+01 2.06e+04 2.73e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.20e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  6   1/  3   1/  2   0/  0   0/  0   1/  1   0/  0   1/  2    7/ 16  0.44
+
+bdxlength:748    bdylength:748
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 41 1.28e+03 6.67e+03 3.75e+05 2.82e+01 1.73e+04 2.39e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.28e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  5   1/  1   2/  4   0/  0   0/  0   0/  0   0/  0   1/  2    7/ 16  0.44
+
+bdxlength:733    bdylength:733
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 42 1.27e+03 6.16e+03 3.19e+05 2.76e+01 1.56e+04 2.17e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.36e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  4   0/  1   6/  8   0/  0   0/  0   1/  1   0/  0   0/  2   10/ 16  0.62
+
+bdxlength:731    bdylength:731
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 43 1.29e+03 5.88e+03 2.85e+05 2.56e+01 1.36e+04 1.95e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.44e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  6   1/  1   1/  1   0/  0   0/  0   0/  0   0/  0   0/  2    5/ 16  0.31
+
+bdxlength:754    bdylength:754
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 44 1.28e+03 8.05e+03 4.68e+05 2.56e+01 1.75e+04 2.55e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.52e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  6   0/  0   1/  3   0/  0   0/  0   0/  0   0/  0   0/  1    5/ 16  0.31
+
+bdxlength:740    bdylength:740
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 45 1.26e+03 4.33e+03 4.91e+05 2.56e+01 1.79e+04 2.23e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.60e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  5/  6   1/  1   5/  5   0/  0   0/  0   1/  1   0/  0   0/  0   12/ 16  0.75
+
+bdxlength:718    bdylength:718
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 46 1.26e+03 6.64e+03 2.53e+05 2.49e+01 1.25e+04 1.92e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.68e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  6   0/  1   4/  4   0/  0   0/  0   0/  0   0/  0   0/  0    7/ 16  0.44
+
+bdxlength:728    bdylength:728
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 47 1.27e+03 6.76e+03 2.82e+05 2.45e+01 1.30e+04 1.98e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.76e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  6   0/  4   1/  1   0/  0   0/  0   0/  0   0/  0   0/  4    2/ 16  0.12
+
+bdxlength:696    bdylength:696
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 48 1.25e+03 5.29e+03 5.61e+05 2.50e+01 1.87e+04 2.40e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.84e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  8/ 11   1/  1   2/  2   0/  0   0/  0   0/  0   0/  0   0/  0   11/ 16  0.69
+
+bdxlength:741    bdylength:741
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 49 1.24e+03 5.15e+03 2.85e+05 2.50e+01 1.33e+04 1.85e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 3.92e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  5   0/  0   5/  6   0/  0   0/  0   0/  0   0/  0   0/  1    9/ 16  0.56
+
+bdxlength:795    bdylength:795
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 50 1.24e+03 5.79e+03 5.19e+05 2.62e+01 1.89e+04 2.46e+04 1.08e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.00e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  7   1/  1   1/  3   0/  0   0/  0   0/  1   0/  1   0/  0    8/ 16  0.50
+
+bdxlength:837    bdylength:837
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 51 1.21e+03 7.10e+03 5.33e+05 2.81e+01 2.05e+04 2.76e+04 1.09e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.08e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  5   0/  1   6/  6   0/  0   0/  0   1/  2   0/  1   1/  1   12/ 16  0.75
+
+bdxlength:726    bdylength:726
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 52 1.22e+03 6.66e+03 5.61e+05 3.11e+01 2.33e+04 3.00e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.16e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  8   0/  0   1/  2   0/  0   0/  0   0/  0   0/  0   1/  1    8/ 16  0.50
+
+bdxlength:806    bdylength:806
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 53 1.23e+03 7.21e+03 4.59e+05 3.44e+01 2.33e+04 3.05e+04 1.08e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.24e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  4   0/  1   6/  7   0/  0   0/  0   0/  0   0/  0   1/  1    9/ 16  0.56
+
+bdxlength:723    bdylength:723
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 54 1.24e+03 6.00e+03 2.71e+05 3.44e+01 1.79e+04 2.39e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.32e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  7   0/  0   0/  2   0/  0   0/  0   0/  0   0/  0   1/  1    7/ 16  0.44
+
+bdxlength:732    bdylength:732
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 55 1.23e+03 4.84e+03 3.55e+05 3.71e+01 2.21e+04 2.70e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.40e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  8   2/  3   0/  1   0/  0   0/  0   0/  0   0/  0   2/  3    8/ 17  0.47
+
+bdxlength:723    bdylength:723
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 56 1.24e+03 6.16e+03 2.56e+05 3.71e+01 1.88e+04 2.49e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.48e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  5   0/  0   3/  3   0/  0   0/  0   1/  1   0/  0   2/  3    9/ 16  0.56
+
+bdxlength:700    bdylength:700
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 57 1.24e+03 5.58e+03 2.33e+05 3.71e+01 1.79e+04 2.35e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.56e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  5   0/  1   2/  3   0/  0   0/  0   0/  0   0/  0   0/  2    5/ 16  0.31
+
+bdxlength:693    bdylength:693
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 58 1.23e+03 6.37e+03 3.00e+05 3.93e+01 2.15e+04 2.79e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.64e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  6   0/  2   2/  4   0/  0   0/  0   0/  0   0/  0   2/  2    7/ 16  0.44
+
+bdxlength:756    bdylength:756
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 59 1.26e+03 6.34e+03 3.13e+05 3.93e+01 2.20e+04 2.83e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.72e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  8   2/  3   0/  1   0/  0   0/  0   0/  0   0/  0   0/  2    6/ 17  0.35
+
+bdxlength:769    bdylength:769
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 60 1.27e+03 6.48e+03 3.04e+05 3.93e+01 2.17e+04 2.82e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.80e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  3   0/  1   4/  5   0/  0   0/  0   0/  0   0/  0   0/  3    5/ 16  0.31
+
+bdxlength:777    bdylength:777
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 61 1.29e+03 6.70e+03 2.55e+05 3.93e+01 1.99e+04 2.66e+04 1.08e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.88e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  5   0/  1   2/  4   0/  0   0/  0   0/  0   0/  0   0/  1    4/ 16  0.25
+
+bdxlength:838    bdylength:838
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 62 1.27e+03 5.42e+03 4.16e+05 4.12e+01 2.66e+04 3.20e+04 1.09e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 4.96e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  5   0/  0   5/  6   0/  0   0/  0   0/  0   0/  0   1/  1   10/ 16  0.62
+
+bdxlength:749    bdylength:749
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 63 1.28e+03 4.50e+03 2.93e+05 4.12e+01 2.23e+04 2.68e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.04e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  3   1/  1   4/  7   0/  0   0/  0   0/  0   0/  0   1/  1    6/ 16  0.38
+
+bdxlength:760    bdylength:760
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 64 1.29e+03 4.29e+03 2.92e+05 4.12e+01 2.23e+04 2.66e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.12e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  4   0/  0   0/  5   0/  0   0/  0   0/  0   0/  0   0/  1    3/ 16  0.19
+
+bdxlength:753    bdylength:753
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 65 1.31e+03 5.53e+03 3.01e+05 4.15e+01 2.28e+04 2.83e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.20e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  5   0/  2   2/  3   0/  0   0/  0   0/  0   0/  0   0/  2    4/ 17  0.24
+
+bdxlength:737    bdylength:737
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 66 1.35e+03 6.30e+03 2.54e+05 4.15e+01 2.09e+04 2.72e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.28e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  7   0/  1   2/  5   0/  0   0/  0   0/  0   0/  0   0/  2    8/ 18  0.44
+
+bdxlength:690    bdylength:690
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 67 1.36e+03 5.70e+03 2.56e+05 4.15e+01 2.10e+04 2.67e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.36e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   1/  2   1/  4   0/  0   0/  0   0/  0   0/  0   0/  0    2/ 16  0.12
+
+bdxlength:715    bdylength:715
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 68 1.40e+03 5.98e+03 1.90e+05 4.05e+01 1.76e+04 2.36e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.44e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  5   0/  2   1/  4   0/  0   0/  0   0/  0   0/  0   0/  3    2/ 17  0.12
+
+bdxlength:717    bdylength:717
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 69 1.39e+03 5.96e+03 2.73e+05 4.05e+01 2.12e+04 2.71e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.52e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  6   0/  0   6/  6   0/  0   0/  0   0/  0   0/  0   0/  1   12/ 16  0.75
+
+bdxlength:709    bdylength:709
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 70 1.38e+03 5.29e+03 3.52e+05 4.05e+01 2.40e+04 2.93e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.60e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  7   1/  2   4/  5   0/  0   0/  0   0/  0   0/  0   0/  0    7/ 17  0.41
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 71 1.37e+03 5.58e+03 3.44e+05 4.07e+01 2.39e+04 2.95e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.68e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  8/ 10   1/  2   2/  2   0/  0   0/  0   0/  0   0/  0   0/  1   11/ 16  0.69
+
+bdxlength:735    bdylength:735
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 72 1.37e+03 5.18e+03 2.51e+05 4.07e+01 2.04e+04 2.56e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.76e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  6   0/  2   1/  2   0/  0   0/  0   0/  0   0/  0   2/  3    7/ 16  0.44
+
+bdxlength:731    bdylength:731
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 73 1.35e+03 4.25e+03 3.57e+05 4.13e+01 2.47e+04 2.89e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.84e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  4   1/  1   3/  3   0/  0   0/  0   0/  0   0/  0   2/  4    8/ 16  0.50
+
+bdxlength:782    bdylength:782
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 74 1.34e+03 5.28e+03 3.77e+05 4.24e+01 2.60e+04 3.13e+04 1.08e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 5.92e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  5/  5   0/  0   5/  7   0/  0   0/  0   0/  0   0/  0   1/  1   11/ 16  0.69
+
+bdxlength:722    bdylength:722
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 75 1.34e+03 5.31e+03 2.53e+05 4.30e+01 2.16e+04 2.69e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.00e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  6   0/  1   1/  3   0/  0   0/  0   0/  0   0/  0   1/  1    6/ 16  0.38
+
+bdxlength:748    bdylength:748
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 76 1.32e+03 4.37e+03 2.85e+05 4.46e+01 2.38e+04 2.82e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.08e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  5   0/  1   2/  3   0/  0   0/  0   0/  0   0/  0   2/  2    8/ 16  0.50
+
+bdxlength:745    bdylength:745
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 77 1.33e+03 4.44e+03 2.50e+05 4.46e+01 2.23e+04 2.68e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.16e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  5   0/  1   4/  5   0/  0   0/  0   0/  0   0/  0   2/  2    9/ 16  0.56
+
+bdxlength:730    bdylength:730
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 78 1.34e+03 4.07e+03 2.63e+05 4.63e+01 2.37e+04 2.78e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.24e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  5   0/  1   3/  6   0/  0   0/  0   0/  0   0/  0   2/  4    9/ 16  0.56
+
+bdxlength:730    bdylength:730
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 79 1.38e+03 4.34e+03 2.63e+05 4.83e+01 2.47e+04 2.91e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.32e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  6   0/  2   1/  2   0/  0   0/  0   0/  0   0/  0   0/  1    1/ 17  0.06
+
+bdxlength:733    bdylength:733
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 80 1.37e+03 4.50e+03 2.31e+05 4.83e+01 2.32e+04 2.77e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.40e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  8   0/  2   2/  4   0/  0   0/  0   0/  0   0/  0   2/  2   10/ 18  0.56
+
+bdxlength:732    bdylength:732
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 81 1.39e+03 4.53e+03 1.97e+05 4.83e+01 2.14e+04 2.59e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.48e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  5   0/  3   0/  3   0/  0   0/  0   0/  0   0/  0   0/  5    2/ 16  0.12
+
+bdxlength:741    bdylength:741
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 82 1.39e+03 5.08e+03 2.03e+05 4.83e+01 2.17e+04 2.68e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.56e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  7   0/  2   1/  3   0/  0   0/  0   0/  0   0/  0   0/  2    5/ 16  0.31
+
+bdxlength:822    bdylength:822
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 83 1.39e+03 5.47e+03 3.76e+05 5.07e+01 3.11e+04 3.66e+04 1.08e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.64e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  5/  7   0/  1   1/  1   0/  0   0/  0   0/  0   0/  0   1/  2    7/ 16  0.44
+
+bdxlength:745    bdylength:745
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 84 1.38e+03 4.88e+03 2.38e+05 5.10e+01 2.49e+04 2.97e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.72e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  6   0/  1   2/  3   0/  0   0/  0   0/  0   0/  0   3/  3    9/ 16  0.56
+
+bdxlength:783    bdylength:783
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 85 1.38e+03 6.02e+03 2.76e+05 5.29e+01 2.78e+04 3.38e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.80e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  8   1/  2   1/  4   0/  0   0/  0   0/  0   0/  0   1/  1    9/ 16  0.56
+
+bdxlength:739    bdylength:739
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 86 1.35e+03 5.50e+03 2.56e+05 5.46e+01 2.76e+04 3.31e+04 1.06e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.88e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  7   0/  1   2/  3   0/  0   0/  0   0/  0   0/  0   1/  3    9/ 16  0.56
+
+bdxlength:725    bdylength:725
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 87 1.34e+03 6.44e+03 2.32e+05 5.66e+01 2.73e+04 3.37e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 6.96e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  5   0/  0   3/  5   0/  0   0/  0   0/  0   0/  0   2/  2    9/ 16  0.56
+
+bdxlength:846    bdylength:846
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 88 1.30e+03 5.91e+03 4.45e+05 5.89e+01 3.93e+04 4.52e+04 1.08e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.04e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  6/  7   0/  0   4/  4   0/  0   0/  0   1/  1   0/  0   1/  2   12/ 16  0.75
+
+bdxlength:833    bdylength:833
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 89 1.29e+03 5.91e+03 3.64e+05 6.14e+01 3.71e+04 4.30e+04 1.08e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.12e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  5/  7   1/  1   3/  3   0/  0   0/  0   1/  1   0/  0   2/  2   12/ 16  0.75
+
+bdxlength:823    bdylength:823
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 90 1.28e+03 5.54e+03 3.73e+05 6.47e+01 3.95e+04 4.51e+04 1.07e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.20e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  4   0/  1   4/  7   0/  0   0/  0   0/  0   0/  0   0/  0    7/ 16  0.44
+
+bdxlength:693    bdylength:693
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 91 1.27e+03 5.09e+03 2.85e+05 6.90e+01 3.68e+04 4.19e+04 1.03e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.28e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  3   1/  2   3/  4   0/  0   0/  0   0/  2   1/  2   1/  1    7/ 16  0.44
+
+bdxlength:682    bdylength:682
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 92 1.25e+03 5.20e+03 2.23e+05 7.43e+01 3.50e+04 4.02e+04 1.03e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.36e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  6   0/  1   2/  5   0/  0   0/  0   1/  1   0/  0   2/  2    9/ 16  0.56
+
+bdxlength:680    bdylength:680
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 93 1.28e+03 5.74e+03 2.64e+05 8.09e+01 4.16e+04 4.73e+04 1.03e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.44e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  5   0/  2   0/  3   0/  0   0/  0   0/  2   0/  2   0/  2    2/ 18  0.11
+
+bdxlength:714    bdylength:714
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 94 1.28e+03 5.39e+03 3.10e+05 8.94e+01 4.98e+04 5.52e+04 1.04e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.52e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  3   0/  1   0/  5   0/  0   0/  0   1/  1   0/  0   0/  1    3/ 16  0.19
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 95 1.27e+03 5.41e+03 2.87e+05 1.00e+02 5.38e+04 5.92e+04 1.04e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.60e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  3   0/  0   1/  6   0/  0   0/  0   3/  3   0/  0   0/  1    6/ 16  0.38
+
+bdxlength:681    bdylength:681
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 96 1.25e+03 5.48e+03 2.53e+05 1.15e+02 5.79e+04 6.33e+04 1.04e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.68e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  6   0/  2   1/  1   0/  0   0/  0   1/  1   0/  0   2/  2    7/ 16  0.44
+
+bdxlength:699    bdylength:699
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 97 1.24e+03 4.89e+03 1.90e+05 1.21e+02 5.30e+04 5.79e+04 1.04e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.76e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  8   0/  3   1/  1   0/  0   0/  0   0/  0   0/  0   0/  3    5/ 16  0.31
+
+bdxlength:703    bdylength:703
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 98 1.25e+03 6.30e+03 1.80e+05 1.25e+02 5.32e+04 5.95e+04 1.04e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.84e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  5   0/  2   1/  5   0/  0   0/  0   0/  0   0/  0   0/  1    3/ 16  0.19
+
+bdxlength:704    bdylength:704
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+ 99 1.26e+03 6.28e+03 1.85e+05 1.31e+02 5.65e+04 6.28e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 7.92e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  6   0/  1   0/  2   0/  0   0/  0   0/  0   0/  0   0/  2    1/ 17  0.06
+
+bdxlength:705    bdylength:705
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+100 1.24e+03 5.37e+03 2.12e+05 1.49e+02 6.85e+04 7.38e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.00e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  6   0/  1   1/  3   0/  0   0/  0   0/  0   0/  0   0/  4    4/ 16  0.25
+
+bdxlength:706    bdylength:706
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+101 1.25e+03 5.95e+03 1.95e+05 1.63e+02 7.19e+04 7.79e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.08e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  6   0/  3   3/  6   0/  0   0/  0   0/  0   0/  0   0/  2    5/ 18  0.28
+
+bdxlength:707    bdylength:707
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+102 1.26e+03 6.11e+03 1.58e+05 1.63e+02 6.48e+04 7.09e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.16e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  4/  7   0/  2   1/  5   0/  0   0/  0   1/  1   0/  0   0/  2    6/ 18  0.33
+
+bdxlength:708    bdylength:708
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+103 1.27e+03 6.11e+03 1.64e+05 1.66e+02 6.71e+04 7.32e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.24e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  5   0/  4   0/  3   0/  0   0/  0   0/  0   0/  0   0/  2    1/ 17  0.06
+
+bdxlength:710    bdylength:710
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+104 1.27e+03 5.88e+03 1.43e+05 1.66e+02 6.27e+04 6.85e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.32e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  3   0/  1   1/  5   0/  0   0/  0   0/  0   0/  0   0/  3    2/ 16  0.12
+
+bdxlength:721    bdylength:721
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+105 1.28e+03 5.57e+03 1.34e+05 1.66e+02 6.08e+04 6.63e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.40e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  7   0/  5   0/  2   0/  0   0/  0   0/  0   0/  0   0/  3    2/ 17  0.12
+
+bdxlength:721    bdylength:721
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+106 1.29e+03 5.79e+03 1.34e+05 1.66e+02 6.08e+04 6.66e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.48e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  4   1/  1   0/  0   0/  0   0/  0   0/  0   0/  3    1/ 16  0.06
+
+bdxlength:721    bdylength:721
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+107 1.29e+03 5.57e+03 1.34e+05 1.66e+02 6.08e+04 6.63e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.56e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  3   0/  2   1/  7   0/  0   0/  0   0/  0   0/  0   0/  2    1/ 16  0.06
+
+bdxlength:719    bdylength:719
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+108 1.28e+03 5.76e+03 1.26e+05 1.66e+02 5.89e+04 6.47e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.64e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  6   0/  0   1/  6   0/  0   0/  0   0/  0   0/  0   0/  0    4/ 16  0.25
+
+bdxlength:719    bdylength:719
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+109 1.29e+03 5.76e+03 1.26e+05 1.66e+02 5.89e+04 6.47e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.72e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  6   0/  4   0/  3   0/  0   0/  0   0/  0   0/  0   0/  1    0/ 18  0.00
+
+bdxlength:709    bdylength:709
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+110 1.30e+03 5.70e+03 1.22e+05 1.66e+02 5.80e+04 6.37e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.80e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  6   0/  3   2/  2   0/  0   0/  0   0/  0   0/  0   0/  2    4/ 17  0.24
+
+bdxlength:707    bdylength:707
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+111 1.30e+03 5.70e+03 1.21e+05 1.65e+02 5.72e+04 6.29e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.88e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  7   0/  5   0/  0   0/  0   0/  0   0/  0   0/  0   0/  2    0/ 16  0.00
+
+bdxlength:707    bdylength:707
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+112 1.31e+03 5.66e+03 1.21e+05 1.62e+02 5.64e+04 6.21e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 8.96e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  4   0/  4   2/  5   0/  0   0/  0   0/  0   0/  0   0/  3    2/ 18  0.11
+
+bdxlength:707    bdylength:707
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+113 1.32e+03 5.48e+03 1.21e+05 1.59e+02 5.53e+04 6.08e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.04e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  2   1/  2   0/  0   0/  0   0/  0   0/  0   0/  1    1/ 16  0.06
+
+bdxlength:707    bdylength:707
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+114 1.30e+03 5.60e+03 1.43e+05 1.59e+02 6.02e+04 6.57e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.12e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  6   0/  2   1/  4   0/  0   0/  0   0/  0   0/  0   0/  3    4/ 16  0.25
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+115 1.28e+03 5.97e+03 1.14e+05 1.54e+02 5.22e+04 5.82e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.20e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  5   0/  0   1/  5   0/  0   0/  0   0/  0   0/  0   0/  0    4/ 16  0.25
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+116 1.29e+03 5.75e+03 1.14e+05 1.49e+02 5.05e+04 5.63e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.28e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  1   1/  4   0/  0   0/  0   0/  0   0/  0   0/  1    1/ 17  0.06
+
+bdxlength:711    bdylength:711
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+117 1.29e+03 5.80e+03 1.20e+05 1.49e+02 5.17e+04 5.75e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.36e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  4   0/  2   0/  4   0/  0   0/  0   0/  0   0/  0   0/  4    1/ 16  0.06
+
+bdxlength:707    bdylength:707
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+118 1.28e+03 6.08e+03 1.23e+05 1.49e+02 5.23e+04 5.84e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.44e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  4   0/  1   1/  4   0/  0   0/  0   0/  0   0/  0   0/  5    3/ 16  0.19
+
+bdxlength:700    bdylength:700
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+119 1.26e+03 5.70e+03 1.52e+05 1.49e+02 5.83e+04 6.40e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.52e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  5   0/  2   4/  7   0/  0   0/  0   0/  0   0/  0   0/  1    7/ 16  0.44
+
+bdxlength:698    bdylength:698
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+120 1.25e+03 5.89e+03 1.66e+05 1.50e+02 6.09e+04 6.68e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.60e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  6   0/  1   1/  2   0/  0   0/  0   0/  0   0/  0   0/  3    4/ 16  0.25
+
+bdxlength:705    bdylength:705
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+121 1.25e+03 5.74e+03 1.23e+05 1.51e+02 5.30e+04 5.87e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.68e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  5   0/  2   1/  3   0/  0   0/  0   0/  0   0/  0   0/  4    2/ 17  0.12
+
+bdxlength:706    bdylength:706
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+122 1.25e+03 5.74e+03 1.26e+05 1.54e+02 5.49e+04 6.06e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.76e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  6   0/  2   0/  1   0/  0   0/  0   0/  0   0/  0   0/  4    1/ 17  0.06
+
+bdxlength:709    bdylength:709
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+123 1.23e+03 5.45e+03 1.24e+05 1.60e+02 5.62e+04 6.17e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.84e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  4   0/  2   4/  8   0/  0   0/  0   0/  0   0/  0   0/  0    5/ 16  0.31
+
+bdxlength:709    bdylength:709
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+124 1.21e+03 6.14e+03 1.26e+05 1.67e+02 5.94e+04 6.55e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 9.92e-01
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  3/  7   0/  2   1/  2   0/  0   0/  0   0/  0   0/  0   0/  1    4/ 16  0.25
+
+bdxlength:710    bdylength:710
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+125 1.21e+03 6.12e+03 1.24e+05 1.77e+02 6.25e+04 6.86e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  7   0/  4   0/  0   0/  0   0/  0   0/  0   0/  0   0/  1    1/ 16  0.06
+
+bdxlength:710    bdylength:710
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+126 1.16e+03 5.02e+03 1.25e+05 1.91e+02 6.73e+04 7.23e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  3   0/  2   4/  5   0/  0   0/  0   0/  0   0/  0   0/  3    4/ 16  0.25
+
+bdxlength:711    bdylength:711
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+127 1.17e+03 5.02e+03 1.20e+05 2.07e+02 7.17e+04 7.67e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  6   0/  2   0/  2   0/  0   0/  0   0/  0   0/  0   0/  2    1/ 16  0.06
+
+bdxlength:710    bdylength:710
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+128 1.18e+03 5.58e+03 1.20e+05 2.28e+02 7.90e+04 8.46e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  1   1/  3   0/  0   0/  0   0/  0   0/  0   0/  0    1/ 16  0.06
+
+bdxlength:710    bdylength:710
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+129 1.23e+03 5.58e+03 1.20e+05 2.53e+02 8.75e+04 9.31e+04 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  6   0/  4   0/  2   0/  0   0/  0   0/  0   0/  0   0/  3    0/ 17  0.00
+
+bdxlength:712    bdylength:712
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+130 1.17e+03 5.60e+03 1.14e+05 2.84e+02 9.57e+04 1.01e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  3   4/  6   0/  0   0/  0   0/  0   0/  0   0/  0    4/ 16  0.25
+
+bdxlength:711    bdylength:711
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+131 1.15e+03 5.65e+03 1.28e+05 3.24e+02 1.16e+05 1.22e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  3   0/  1   0/  5   0/  0   0/  0   0/  0   0/  0   0/  4    2/ 16  0.12
+
+bdxlength:714    bdylength:714
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+132 1.14e+03 4.96e+03 1.25e+05 3.76e+02 1.33e+05 1.38e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  4   0/  2   1/  5   0/  0   0/  0   0/  0   0/  0   0/  3    2/ 16  0.12
+
+bdxlength:714    bdylength:714
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+133 1.06e+03 4.92e+03 1.25e+05 4.42e+02 1.56e+05 1.61e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  4   0/  3   4/  6   0/  0   0/  0   0/  0   0/  0   0/  1    5/ 16  0.31
+
+bdxlength:714    bdylength:714
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+134 1.08e+03 4.92e+03 1.25e+05 5.24e+02 1.85e+05 1.90e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  4   0/  2   0/  4   0/  0   0/  0   0/  0   0/  0   0/  1    0/ 16  0.00
+
+bdxlength:714    bdylength:714
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+135 1.08e+03 4.70e+03 1.25e+05 6.24e+02 2.20e+05 2.25e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  3   1/  3   0/  0   0/  0   0/  0   0/  0   0/  1    1/ 16  0.06
+
+bdxlength:712    bdylength:712
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+136 1.08e+03 5.72e+03 1.26e+05 7.55e+02 2.68e+05 2.74e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  2   0/  0   1/  4   0/  0   0/  0   0/  1   0/  1   0/  1    1/ 16  0.06
+
+bdxlength:712    bdylength:712
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+137 1.10e+03 5.72e+03 1.26e+05 9.27e+02 3.29e+05 3.35e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  6   0/  3   0/  2   0/  0   0/  0   0/  0   0/  0   0/  2    0/ 16  0.00
+
+bdxlength:711    bdylength:711
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+138 1.10e+03 5.74e+03 1.20e+05 1.16e+03 4.00e+05 4.06e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  4   0/  2   0/  3   0/  0   0/  0   0/  0   0/  0   0/  3    1/ 16  0.06
+
+bdxlength:711    bdylength:711
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+139 1.09e+03 5.95e+03 1.20e+05 1.46e+03 5.07e+05 5.13e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  6   0/  3   1/  1   0/  0   0/  0   0/  0   0/  0   0/  2    1/ 16  0.06
+
+bdxlength:711    bdylength:711
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+140 1.09e+03 5.73e+03 1.20e+05 1.66e+03 5.73e+05 5.79e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  3   0/  1   1/  7   0/  0   0/  0   0/  0   0/  0   0/  1    1/ 16  0.06
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+141 9.38e+02 5.83e+03 1.20e+05 1.68e+03 5.83e+05 5.88e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  5   0/  2   2/  5   0/  0   0/  0   0/  0   0/  0   0/  2    3/ 17  0.18
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+142 9.50e+02 5.83e+03 1.20e+05 1.68e+03 5.83e+05 5.88e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  4   0/  3   0/  0   0/  0   0/  0   0/  0   0/  2    0/ 16  0.00
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+143 9.48e+02 5.66e+03 1.20e+05 1.64e+03 5.66e+05 5.71e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  6   0/  5   1/  2   0/  0   0/  0   0/  0   0/  0   0/  0    1/ 17  0.06
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+144 9.58e+02 5.66e+03 1.20e+05 1.64e+03 5.66e+05 5.71e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  6   0/  3   0/  1   0/  0   0/  0   0/  0   0/  0   0/  2    0/ 16  0.00
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+145 9.49e+02 5.69e+03 1.20e+05 1.65e+03 5.69e+05 5.75e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  4   0/  2   1/  3   0/  0   0/  0   0/  0   0/  0   0/  1    1/ 16  0.06
+
+bdxlength:714    bdylength:714
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+146 8.26e+02 5.66e+03 1.20e+05 1.63e+03 5.66e+05 5.71e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  6   0/  2   1/  2   0/  0   0/  0   0/  0   0/  0   0/  4    2/ 17  0.12
+
+bdxlength:714    bdylength:714
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+147 8.17e+02 5.88e+03 1.20e+05 1.69e+03 5.88e+05 5.93e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  3   1/  4   0/  0   0/  0   0/  0   0/  0   0/  1    1/ 16  0.06
+
+bdxlength:714    bdylength:714
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+148 8.22e+02 5.88e+03 1.20e+05 1.69e+03 5.88e+05 5.93e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  4   0/  3   0/  0   0/  0   0/  0   0/  0   0/  1    0/ 16  0.00
+
+bdxlength:714    bdylength:714
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+149 8.12e+02 5.66e+03 1.20e+05 1.63e+03 5.66e+05 5.71e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  4   1/  3   0/  0   0/  0   0/  0   0/  0   0/  1    1/ 16  0.06
+
+bdxlength:714    bdylength:714
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+150 8.15e+02 5.66e+03 1.20e+05 1.63e+03 5.66e+05 5.71e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  4   0/  3   0/  4   0/  0   0/  0   0/  0   0/  0   0/  2    0/ 16  0.00
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+151 8.03e+02 5.66e+03 1.17e+05 1.65e+03 5.66e+05 5.71e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  1/  6   0/  4   0/  0   0/  0   0/  0   0/  0   0/  0   0/  4    1/ 16  0.06
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+152 8.06e+02 5.66e+03 1.17e+05 1.65e+03 5.66e+05 5.71e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  3   0/  3   0/  0   0/  0   0/  0   0/  0   0/  3    0/ 18  0.00
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+153 8.07e+02 5.66e+03 1.17e+05 1.65e+03 5.66e+05 5.71e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  6   0/  4   0/  1   0/  0   0/  0   0/  0   0/  0   0/  1    0/ 16  0.00
+
+bdxlength:713    bdylength:713
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+154 7.93e+02 5.88e+03 1.17e+05 1.72e+03 5.88e+05 5.93e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  4   0/  2   1/  4   0/  0   0/  0   0/  0   0/  0   0/  2    1/ 16  0.06
+
+bdxlength:711    bdylength:711
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+155 7.50e+02 5.76e+03 1.14e+05 1.70e+03 5.76e+05 5.82e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  2/  5   0/  1   1/  3   0/  0   0/  0   0/  1   0/  1   0/  2    3/ 16  0.19
+
+bdxlength:710    bdylength:710
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+156 7.50e+02 5.74e+03 1.13e+05 1.71e+03 5.74e+05 5.79e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  3   0/  5   0/  0   0/  0   0/  0   0/  0   0/  2    0/ 18  0.00
+
+bdxlength:710    bdylength:710
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+157 7.50e+02 5.74e+03 1.13e+05 1.71e+03 5.74e+05 5.79e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  5   0/  2   0/  4   0/  0   0/  0   0/  0   0/  0   0/  1    0/ 17  0.00
+
+bdxlength:710    bdylength:710
+
+I     T     funccost  binpen x lapFact = penalty  cost coreFactor
+158 7.50e+02 5.74e+03 1.13e+05 1.71e+03 5.74e+05 5.79e+05 1.05e+00
+timeFactor timepenal timecost  var perDone
+0.00e+00 0.00e+00 0.00e+00 1.00e+00
+  flip1   flipo   flip0   flipp   flipa   flip2   flipo2  flipi   flips ratio
+  0/  4   0/  2   0/  4   0/  0   0/  0   0/  0   0/  0   0/  4    0/ 16  0.00
+
+
+PLACEMENT RESULTS AFTER ANNEALING ARE:
+   routing cost        :5735
+   overlap penalty     :112953
+   lapFactor * overlap :573500
+   timing penalty      :0
++  timeFactor * timepen:0
+-------------------------------------
+   total cost          :579235
+Wirelength:
+	All nets             :5735
+	Limited nets         :5735
+	All nets without pads:3236
+
+
+CORE Bounding Box: l:0 r:710 b:0 t:640
+   xspan     = 710
+   yspan     = 640
+   core area = 4.54e+05
+
+-------------------------------------
+MAX NUMBER OF ATTEMPTED FLIPS PER T:      16
+/usr/local/lib/graywolf/bin/mc_compact -vn macro 710 640 10 10 10 10
+Reading results of compaction...

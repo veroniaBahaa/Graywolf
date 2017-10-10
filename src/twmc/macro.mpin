@@ -1,0 +1,54 @@
+net A
+pin 26 x 500 y 100 cell 9 layer 1 PinOrEquiv 1
+pin 1 x 950 y 505 cell 8 layer 1 PinOrEquiv 1
+pin s2 x 552 y 420 cell 5 layer 1 PinOrEquiv 1
+pin s1 x 542 y 420 cell 5 layer 0 PinOrEquiv 1
+pin h1 x 322 y 653 cell 5 layer 1 PinOrEquiv 1
+pin f x 138 y 322 cell 4 layer 0 PinOrEquiv 1
+pin 2.100000 x 870 y 650 cell 2 layer 1 PinOrEquiv 1
+pin 1.100000 x 720 y 120 cell 1 layer 1 PinOrEquiv 1
+
+net B
+pin 10 x 480 y 930 cell 7 layer 1 PinOrEquiv 1
+pin h4 x 650 y 832 cell 5 layer 1 PinOrEquiv 1
+pin a x 128 y 280 cell 4 layer 0 PinOrEquiv 1
+pin 3.100000 x 90 y 680 cell 3 layer 1 PinOrEquiv 1
+pin 1.200000 x 270 y 250 cell 1 layer 1 PinOrEquiv 1
+
+net D
+pin 27 x 480 y 100 cell 9 layer 1 PinOrEquiv 1
+pin h2 x 628 y 653 cell 5 layer 1 PinOrEquiv 1
+pin 2.300000 x 830 y 650 cell 2 layer 1 PinOrEquiv 1
+pin 1.300000 x 300 y 120 cell 1 layer 1 PinOrEquiv 1
+
+net C
+pin 19 x 10 y 505 cell 6 layer 1 PinOrEquiv 1
+pin h3 x 650 y 694 cell 5 layer 1 PinOrEquiv 1
+pin 2.500000 x 890 y 650 cell 2 layer 1 PinOrEquiv 1
+pin 2.500000  x 890  y 110  cell 2 layer 1 PinOrEquiv 0
+pin 1.400000 x 270 y 150 cell 1 layer 1 PinOrEquiv 1
+
+net F
+pin 28 x 460 y 100 cell 9 layer 1 PinOrEquiv 1
+pin h5 x 300 y 694 cell 5 layer 1 PinOrEquiv 1
+pin b x 118 y 280 cell 4 layer 0 PinOrEquiv 1
+pin 3.400000 x 120 y 880 cell 3 layer 1 PinOrEquiv 1
+pin 1.500000 x 750 y 150 cell 1 layer 1 PinOrEquiv 1
+
+net G
+pin 3.300000 x 240 y 680 cell 3 layer 1 PinOrEquiv 1
+pin 2.200000 x 820 y 650 cell 2 layer 1 PinOrEquiv 1
+
+net H
+pin e x 138 y 312 cell 4 layer 0 PinOrEquiv 1
+pin 3.200000 x 200 y 680 cell 3 layer 1 PinOrEquiv 1
+pin 2.400000 x 880 y 650 cell 2 layer 1 PinOrEquiv 1
+
+net E
+pin c x 108 y 280 cell 4 layer 0 PinOrEquiv 1
+pin 3.500000 x 250 y 780 cell 3 layer 1 PinOrEquiv 1
+
+net I
+pin d x 138 y 302 cell 4 layer 0 PinOrEquiv 1
+pin 3.600000 x 70 y 680 cell 3 layer 1 PinOrEquiv 1
+

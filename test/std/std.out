@@ -1,0 +1,422 @@
+
+TimberWolfSC version:v6.0 date:Mon May 25 21:19:07 EDT 1992
+Row-Based Placement and Global Routing Program
+Authors: Carl Sechen, Kai-Win Lee, and Bill Swartz,
+         Yale University
+
+
+
+
+TimberWolf will perform a global route step
+feedThruWidth: 2
+track.pitch: 3
+route2act was not entered in the .par file
+route2act defaulted to track.pitch
+route2act: 3
+
+The random number generator seed is: 17
+
+
+rowSep: 1.000000
+
+[get_stat_hints]:Found hints in <std.stat> file
+[get_stat_hints]:Total cells:17 Number of nets:15
+
+[add_extra_cells]:Added 85 spacer cells to the gate array
+total cell length: 144
+total block length: 153
+block x-span:51  block y-span:130
+
+
+TIMING FACTOR (COMPUTED) : 4.000000
+Using default value of bin.penalty.control:1.000000
+Original Average Cell Width:28.000000
+Adjusted Average Cell Width:3.000000
+numBinsG automatically set to:17
+binWidthG = 3
+average_cell_width is:3
+standard deviation of cell length is:38.629
+Could not use resume file: std.res  since it could not be found
+
+
+
+THIS IS THE ROUTE COST OF THE ORIGINAL PLACEMENT: 558
+ECO pin skipped for net <MCLEAR>
+ECO pin skipped for net <MCLEAR>
+ECO pin skipped for net <MCLOCK>
+ECO pin skipped for net <MCLOCK>
+ECO pin skipped for net <B0>
+ECO pin skipped for net <B0>
+ECO pin skipped for net <B0>
+ECO pin skipped for net <$COUNT_2/$FJK3_4$Q>
+ECO pin skipped for net <IN1>
+ECO pin skipped for net <IN1>
+
+The number of nets with 1 pins is 11
+The number of nets with 2 pins is 3
+The number of nets with 100 pins or more is 0
+Average number of pins per net = 1.214286
+The maximum number of pins on a single net is:2
+
+Percentage of Nets Connecting to at least 2 cells:1.00
+Percentage of Nets Connecting to at least 3 cells:0.00
+Percentage of Nets Connecting to at least 4 cells:0.00
+Percentage of Nets Connecting to at least 5 cells:0.00
+Percentage of Nets Connecting to at least 6 cells:0.00
+
+bdxlen:87  bdylen:188
+l:-19  t:170  r:68  b:-18
+
+
+
+THIS IS THE ROUTE COST OF THE CURRENT PLACEMENT: 558
+
+
+
+THIS IS THE PENALTY OF THE CURRENT PLACEMENT: 651
+ECOs are being incorporated as requested
+ECO added cell being processed: <$COUNT_2/$FJK3_4>  ... placed in row:3 x:101
+ECO added cell being processed: <$COUNT_2/$FJK3_5>  ... placed in row:3 x:453
+Total Wire Length - X-Component:309
+Total Wire Length - Y-Component:369
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                     6                  -45          51
+    2                    10                  -41          51
+    3                   128                   77          51
+
+LONGEST Block is:3   Its length is:128
+total penalty is 163
+Removed the cell overlaps --- Will do neighbor interchanges only now
+
+TOTAL INTERCONNECT LENGTH: 678
+initialRowControl:   0.000
+finalRowControl:   0.000
+iter      T      Wire accept Time
+TimberWolfSC did NOT call even_the_rows()
+Total Wire Length - X-Component:392
+Total Wire Length - Y-Component:369
+Time Penalty:0
+ the number of net = 15
+ the number of tilted segment = 4
+ the number of switchable L segment = 0
+Total Wire Length - X-Component:392
+Total Wire Length - Y-Component:369
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                     8                  -47          55
+    2                    14                  -41          55
+    3                   134                   79          55
+
+LONGEST Block is:3   Its length is:134
+ the number of tilted segment = 4
+ the number of switchable L segment = 3
+ the number of tilted segment = 4
+ the number of switchable L segment = 3
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1                  8                   -47
+  2                 14                   -41
+  3                134                    79
+
+LONGEST Row is:3   Its length is:134
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1                  8 
+  2                 14 
+  3                134 
+
+LONGEST Row is:3   Its length is:134
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                     8                  -47
+    2                    14                  -41
+    3                   134                   79
+
+LONGEST Block is:3   Its length is:134
+initial total global wire   :	569
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:0
+reduction:	-8		total_red:-8
+iterations              :	4
+final total global wire :	561
+final total time penalty:	0
+
+Total global wire reduced by:	1.406%
+
+VERIFICATION
+final total global wire :	561
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 10
+
+
+no. of accepted flips: 108
+no. of attempted flips: 375
+THIS IS THE NUMBER OF TRACKS: 10
+
+
+THIS G. ROUTING IS BEING SAVED AS BEST SO FAR
+
+FINAL NUMBER OF ROUTING TRACKS: 10
+
+MAX OF CHANNEL:  1  is:   2
+MAX OF CHANNEL:  2  is:   1
+MAX OF CHANNEL:  3  is:   2
+MAX OF CHANNEL:  4  is:   5
+Confirming number of eliminated feeds:0
+Actual # of Feed Cells Added:	6
+
+
+TimberWolfSC did NOT call even_the_rows()
+Total Wire Length - X-Component:392
+Total Wire Length - Y-Component:369
+Time Penalty:0
+ the number of net = 15
+ the number of tilted segment = 4
+ the number of switchable L segment = 0
+Total Wire Length - X-Component:392
+Total Wire Length - Y-Component:369
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                     8                  -47          55
+    2                    14                  -41          55
+    3                   134                   79          55
+
+LONGEST Block is:3   Its length is:134
+ the number of tilted segment = 4
+ the number of switchable L segment = 3
+ the number of tilted segment = 4
+ the number of switchable L segment = 3
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1                  8                   -47
+  2                 14                   -41
+  3                134                    79
+
+LONGEST Row is:3   Its length is:134
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1                  8 
+  2                 14 
+  3                134 
+
+LONGEST Row is:3   Its length is:134
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                     8                  -47
+    2                    14                  -41
+    3                   134                   79
+
+LONGEST Block is:3   Its length is:134
+initial total global wire   :	569
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:0
+reduction:	-6		total_red:-6
+iterations              :	4
+final total global wire :	563
+final total time penalty:	0
+
+Total global wire reduced by:	1.054%
+
+VERIFICATION
+final total global wire :	563
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 11
+
+
+no. of accepted flips: 0
+no. of attempted flips: 375
+THIS IS THE NUMBER OF TRACKS: 11
+
+
+Actual # of Feed Cells Added:	6
+
+
+TimberWolfSC did NOT call even_the_rows()
+Total Wire Length - X-Component:392
+Total Wire Length - Y-Component:369
+Time Penalty:0
+ the number of net = 15
+ the number of tilted segment = 4
+ the number of switchable L segment = 0
+Total Wire Length - X-Component:392
+Total Wire Length - Y-Component:369
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                     8                  -47          55
+    2                    14                  -41          55
+    3                   134                   79          55
+
+LONGEST Block is:3   Its length is:134
+ the number of tilted segment = 4
+ the number of switchable L segment = 3
+ the number of tilted segment = 4
+ the number of switchable L segment = 3
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1                  8                   -47
+  2                 14                   -41
+  3                134                    79
+
+LONGEST Row is:3   Its length is:134
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1                  8 
+  2                 14 
+  3                134 
+
+LONGEST Row is:3   Its length is:134
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                     8                  -47
+    2                    14                  -41
+    3                   134                   79
+
+LONGEST Block is:3   Its length is:134
+initial total global wire   :	575
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:0
+reduction:	-18		total_red:-18
+iterations              :	4
+final total global wire :	557
+final total time penalty:	0
+
+Total global wire reduced by:	3.130%
+
+VERIFICATION
+final total global wire :	557
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 10
+
+
+no. of accepted flips: 1
+no. of attempted flips: 375
+THIS IS THE NUMBER OF TRACKS: 9
+
+
+THIS G. ROUTING IS BEING SAVED AS BEST SO FAR
+
+FINAL NUMBER OF ROUTING TRACKS: 9
+
+MAX OF CHANNEL:  1  is:   2
+MAX OF CHANNEL:  2  is:   1
+MAX OF CHANNEL:  3  is:   3
+MAX OF CHANNEL:  4  is:   3
+Confirming number of eliminated feeds:0
+Actual # of Feed Cells Added:	6
+
+
+TimberWolfSC did NOT call even_the_rows()
+TimberWolfSC using absolute_minimum_feeds
+Total Wire Length - X-Component:392
+Total Wire Length - Y-Component:369
+Time Penalty:0
+ the number of net = 15
+ the number of tilted segment = 4
+ the number of switchable L segment = 0
+Total Wire Length - X-Component:392
+Total Wire Length - Y-Component:369
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                     8                  -47          55
+    2                    14                  -41          55
+    3                   134                   79          55
+
+LONGEST Block is:3   Its length is:134
+ the number of tilted segment = 4
+ the number of switchable L segment = 3
+ the number of tilted segment = 4
+ the number of switchable L segment = 3
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1                  8                   -47
+  2                 14                   -41
+  3                134                    79
+
+LONGEST Row is:3   Its length is:134
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1                  8 
+  2                 14 
+  3                134 
+
+LONGEST Row is:3   Its length is:134
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                     8                  -47
+    2                    14                  -41
+    3                   134                   79
+
+LONGEST Block is:3   Its length is:134
+initial total global wire   :	569
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:0
+reduction:	-6		total_red:-6
+iterations              :	4
+final total global wire :	563
+final total time penalty:	0
+
+Total global wire reduced by:	1.054%
+
+VERIFICATION
+final total global wire :	563
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 13
+
+
+no. of accepted flips: 2
+no. of attempted flips: 375
+THIS IS THE NUMBER OF TRACKS: 11
+
+
+Actual # of Feed Cells Added:	6
+
+
+TimberWolfSC did call even_the_rows()
+Total Wire Length - X-Component:392
+Total Wire Length - Y-Component:369
+Time Penalty:0

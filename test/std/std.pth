@@ -1,0 +1,20 @@
+The paths:
+##############################################
+
+The nets:
+##############################################
+net   1:MCLEAR xspan:100 yspan:31 length:131 numpins:3
+net   2:MCLOCK xspan:68 yspan:6 length:74 numpins:3
+net   3:B0 xspan:159 yspan:133 length:292 numpins:4
+net   4:$COUNT_2/$FJK3_4$Q xspan:0 yspan:0 length:0 numpins:1
+net   5:IN1 xspan:156 yspan:133 length:289 numpins:3
+net   6:$COUNT_1/$AND2_1/$ND2_1$Z xspan:6 yspan:13 length:19 numpins:2
+net   7:B7 xspan:6 yspan:1 length:7 numpins:2
+net   8:B6 xspan:62 yspan:55 length:117 numpins:2
+net   9:$COUNT_1/$FJK3_1$Q xspan:0 yspan:0 length:0 numpins:1
+net  10:B4 xspan:0 yspan:0 length:0 numpins:1
+net  11:B3 xspan:0 yspan:0 length:0 numpins:1
+net  12:CONT1 xspan:0 yspan:0 length:0 numpins:1
+net  13:B1 xspan:0 yspan:0 length:0 numpins:1
+net  14:B5 xspan:0 yspan:0 length:0 numpins:1
+net  15:B2 xspan:0 yspan:0 length:0 numpins:1

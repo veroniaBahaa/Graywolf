@@ -1,0 +1,10 @@
+total_row_length 38880
+actual_row_height 112
+channel_separation 112
+min_length 721
+core -16 -16 3592 3592
+grid 8 8
+num_macro 3
+macro orient 3 4 vertices 840 3024 840 3392 2036 3392 2036 3024 
+macro orient 5 4 vertices 816 1712 816 2944 1552 2944 1552 1712 
+macro orient 5 4 vertices 64 1048 64 3560 764 3560 764 1048 

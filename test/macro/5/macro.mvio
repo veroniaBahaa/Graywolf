@@ -1,0 +1,6 @@
+numtiles:3 numcells:2
+cell 1 x:510 y:450 offset:-180 -240
+l:-180 r:10 b:-240 t:240
+l:10 r:180 b:-200 t:100
+cell 2 x:105 y:310 offset:-85 -270
+l:-85 r:85 b:-270 t:270

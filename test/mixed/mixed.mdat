@@ -1,0 +1,231 @@
+
+stdcell 1 name core
+corners 6
+-304 0 -304 1509 1618 1509 1618 3018 3540 3018 3540 0 
+asplb 0.500000 aspub 2.000000
+class 0 orientations 0 1 2 3 4 5 6 7 
+orient 2
+
+hardcell 2 name G3
+corners 4
+840 3024 840 3392 2036 3392 2036 3024 
+class 0 orientations 0 1 2 3 4 5 6 7 
+orient 3
+pin name P#11 signal XXXX layer 1 1438 3208
+pin name 1 signal TW_PASS_THRU layer 1 1438 3392
+equiv name 1 layer 1 1438 3024
+pin name 2 signal TW_PASS_THRU layer 1 1430 3392
+equiv name 2 layer 1 1430 3024
+pin name 3 signal TW_PASS_THRU layer 1 1422 3392
+equiv name 3 layer 1 1422 3024
+
+hardcell 3 name G4
+corners 4
+816 1712 816 2944 1552 2944 1552 1712 
+class 0 orientations 0 1 2 3 4 5 6 7 
+orient 5
+pin name P#10 signal S245.TTER__S1266 layer 1 816 2935
+pin name P#11 signal S306.TTER__S1269 layer 1 816 2909
+pin name P#2 signal S247.TTER__S1262 layer 1 816 1734
+pin name P#1 signal S248.TTER__S1260 layer 1 1552 1734
+
+hardcell 4 name G18
+corners 4
+64 1048 64 3560 764 3560 764 1048 
+class 0 orientations 0 1 2 3 4 5 6 7 
+orient 5
+pin name P#10 signal S251.TTER__S1129 layer 1 764 3128
+equiv name P#10 layer 1 64 3128
+pin name P#14 signal S251.TTER__S1129 layer 1 764 2584
+equiv name P#14 layer 1 64 2584
+pin name P#22 signal S251.TTER__S1129 layer 1 764 2072
+equiv name P#22 layer 1 64 2072
+pin name P#28 signal S256.P15A layer 1 764 1544
+equiv name P#28 layer 1 64 1544
+pin name P#30 signal S293.TTER__S1180 layer 1 64 1528
+equiv name P#30 layer 1 764 1528
+pin name P#12 signal S299.ETTER__S525 layer 1 64 3112
+equiv name P#12 layer 1 764 3112
+pin name P#16 signal S302.ETTER__S517 layer 1 64 2600
+equiv name P#16 layer 1 764 2600
+pin name P#20 signal S305.ETTER__S509 layer 1 64 2056
+equiv name P#20 layer 1 764 2056
+pin name P#6 signal S298.TTER__S1161 layer 1 764 3380
+equiv name P#6 layer 1 64 3380
+pin name P#24 signal S252.ETTER__S748 layer 1 64 2088
+equiv name P#24 layer 1 764 2088
+pin name P#8 signal S259.ETTER__S742 layer 1 764 3144
+equiv name P#8 layer 1 64 3144
+pin name P#18 signal S258.ETTER__S745 layer 1 764 2616
+equiv name P#18 layer 1 64 2616
+pin name P#26 signal S249.ETTER__S751 layer 1 64 1560
+equiv name P#26 layer 1 764 1560
+
+pad 5 name G11
+corners 4
+3600 1660 3600 1916 3992 1916 3992 1660 
+orient 6
+pin name P#7 signal S297.ETTER__S654 layer 1 3600 1828
+
+pad 6 name G26
+corners 4
+1148 3600 1148 3992 1404 3992 1404 3600 
+orient 3
+pin name P#13 signal S287.ETTER__S570 layer 1 1276 3600
+
+pad 7 name G22
+corners 4
+2172 3600 2172 3992 2428 3992 2428 3600 
+orient 3
+pin name P#13 signal S264.ETTER__S608 layer 1 2300 3600
+
+pad 8 name G27
+corners 4
+2428 3600 2428 3992 2684 3992 2684 3600 
+orient 3
+pin name P#13 signal S288.ETTER__S562 layer 1 2556 3600
+
+pad 9 name G20
+corners 4
+2044 -416 2044 -24 2300 -24 2300 -416 
+orient 0
+pin name P#13 signal S289.ETTER__S816 layer 1 2172 -24
+
+pad 10 name G23
+corners 4
+1404 3600 1404 3992 1660 3992 1660 3600 
+orient 3
+pin name P#13 signal S267.ETTER__S600 layer 1 1532 3600
+
+pad 11 name G30
+corners 4
+-416 3068 -416 3324 -24 3324 -24 3068 
+orient 7
+pin name P#13 signal S305.ETTER__S509 layer 1 -24 3196
+
+pad 12 name G31
+corners 4
+-416 2556 -416 2812 -24 2812 -24 2556 
+orient 7
+pin name P#13 signal S251.TTER__S1129 layer 1 -24 2684
+
+pad 13 name G10
+corners 4
+-416 3324 -416 3580 -24 3580 -24 3324 
+orient 7
+pin name P#9 signal S293.TTER__S1180 layer 1 -24 3452
+pin name P#8 signal S294.TTER__S1178 layer 1 -24 3532
+
+pad 14 name G5
+corners 4
+892 3600 892 3992 1148 3992 1148 3600 
+orient 3
+pin name P#13 signal S256.P15A layer 1 1020 3600
+
+pad 15 name G21
+corners 4
+1532 -416 1532 -24 1788 -24 1788 -416 
+orient 0
+pin name P#13 signal S255.TTER__S1127 layer 1 1660 -24
+
+pad 16 name G24
+corners 4
+-416 2300 -416 2556 -24 2556 -24 2300 
+orient 7
+pin name P#13 signal S273.ETTER__S592 layer 1 -24 2428
+
+pad 17 name G16
+corners 4
+-416 1020 -416 1276 -24 1276 -24 1020 
+orient 7
+pin name P#8 signal S245.TTER__S1266 layer 1 -24 1148
+
+pad 18 name G17
+corners 4
+-416 764 -416 1020 -24 1020 -24 764 
+orient 7
+pin name P#8 signal S306.TTER__S1269 layer 1 -24 892
+
+pad 19 name G29
+corners 4
+-416 2812 -416 3068 -24 3068 -24 2812 
+orient 7
+pin name P#13 signal S302.ETTER__S517 layer 1 -24 2940
+
+pad 20 name G28
+corners 4
+-416 2044 -416 2300 -24 2300 -24 2044 
+orient 7
+pin name P#13 signal S299.ETTER__S525 layer 1 -24 2172
+
+pad 21 name G25
+corners 4
+2300 -416 2300 -24 2556 -24 2556 -416 
+orient 0
+pin name P#13 signal S263.TTER__S1243 layer 1 2428 -24
+
+pad 22 name G6
+corners 4
+-416 508 -416 764 -24 764 -24 508 
+orient 7
+pin name P#13 signal S262.TTER__S1244 layer 1 -24 636
+
+pad 23 name G13
+corners 4
+1276 -416 1276 -24 1532 -24 1532 -416 
+orient 0
+pin name P#6 signal S301.ETTER__S645 layer 1 1404 -24
+
+pad 24 name G9
+corners 4
+-416 1788 -416 2044 -24 2044 -24 1788 
+orient 7
+pin name P#6 signal S295.ETTER__S922 layer 1 -24 1916
+
+pad 25 name G12
+corners 4
+-416 1276 -416 1532 -24 1532 -24 1276 
+orient 7
+pin name P#6 signal S300.ETTER__S647 layer 1 -24 1404
+
+pad 26 name G14
+corners 4
+1788 -416 1788 -24 2044 -24 2044 -416 
+orient 0
+pin name P#6 signal S304.ETTER__S643 layer 1 1916 -24
+
+pad 27 name G15
+corners 4
+-416 1532 -416 1788 -24 1788 -24 1532 
+orient 7
+pin name P#6 signal S266.ETTER__S857 layer 1 -24 1660
+
+pad 28 name G1
+corners 4
+1660 3600 1660 3992 1916 3992 1916 3600 
+orient 3
+
+pad 29 name G2
+corners 4
+1916 3600 1916 3992 2172 3992 2172 3600 
+orient 3
+
+pad 30 name G19
+corners 4
+-416 252 -416 508 -24 508 -24 252 
+orient 7
+pin name P#13 signal S277.TTER__S1218 layer 1 -24 380
+
+pad 31 name G7
+corners 4
+-416 -4 -416 252 -24 252 -24 -4 
+orient 7
+pin name P#12 signal S283.TTER__S1213 layer 1 -24 124
+pin name P#1 signal S277.TTER__S1218 layer 1 -24 68
+pin name P#14 signal S292.TTER__S1192 layer 1 -24 180
+
+pad 32 name G8
+corners 4
+1020 -416 1020 -24 1276 -24 1276 -416 
+orient 0
+pin name P#11 signal S283.TTER__S1213 layer 1 1148 -24

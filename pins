@@ -1,0 +1,4 @@
+clk:B
+rst:T
+{x,y}:L,permute
+sum:R

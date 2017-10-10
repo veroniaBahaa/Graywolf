@@ -1,0 +1,17 @@
+syntax version:v1.1 date:Mon May 25 21:11:10 EDT 1992
+TIMESTAMP:Sun May 14 22:19:39 2017
+Statistics for std:
+num_stdcells:5
+num_macros:0
+num_instances:0
+num_pads:16
+num_nets:15
+num_pins:27
+num_implicit_feeds:1
+num_equivs:6
+num_unequivs:0
+num_ports:12
+macro_area:0.000e+00
+tot_length:144
+num_soft:1
+cell_height:26

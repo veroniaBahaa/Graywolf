@@ -1,0 +1,17 @@
+The paths:
+##############################################
+
+The nets:
+##############################################
+net   1:B2 xspan:20 yspan:32 length:52 numpins:2
+net   2:B5 xspan:18 yspan:42 length:60 numpins:2
+net   3:B1 xspan:16 yspan:18 length:34 numpins:2
+net   4:CONT1 xspan:2 yspan:31 length:33 numpins:2
+net   5:B3 xspan:2 yspan:2 length:4 numpins:2
+net   6:B4 xspan:68 yspan:2 length:70 numpins:2
+net   7:B6 xspan:44 yspan:30 length:74 numpins:2
+net   8:B7 xspan:2 yspan:17 length:19 numpins:2
+net   9:IN1 xspan:43 yspan:2 length:45 numpins:2
+net  10:B0 xspan:94 yspan:2 length:96 numpins:2
+net  11:MCLOCK xspan:45 yspan:12 length:57 numpins:2
+net  12:MCLEAR xspan:10 yspan:27 length:37 numpins:2

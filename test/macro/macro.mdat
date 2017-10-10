@@ -1,0 +1,107 @@
+
+hardcell 1 name bk1
+corners 4
+440 50 440 240 920 240 920 50 
+class 0 orientations 0 1 2 3 4 5 6 7 
+orient 1
+pin name 1.100000 signal A layer 1 890 50
+pin name 1.200000 signal B layer 1 440 180
+pin name 1.300000 signal D layer 1 470 50
+pin name 1.400000 signal C layer 1 440 80
+pin name 1.500000 signal F layer 1 920 80
+
+hardcell 2 name blk2
+corners 4
+20 110 20 650 190 650 190 110 
+class 0 orientations 7 
+orient 7
+pin name 2.100000 signal A layer 1 120 650
+pin name 2.300000 signal D layer 1 80 650
+pin name 2.500000 signal C layer 1 140 650
+equiv name 2.500000 layer 1 140 110
+pin name 2.200000 signal G layer 1 70 650
+pin name 2.400000 signal H layer 1 130 650
+
+hardcell 3 name blk3
+corners 4
+300 690 300 920 500 920 500 690 
+class 0 orientations 0 1 2 3 4 5 6 7 
+orient 7
+pin name 3.100000 signal B layer 1 500 850
+pin name 3.400000 signal F layer 1 300 820
+pin name 3.300000 signal G layer 1 500 700
+pin name 3.200000 signal H layer 1 500 740
+pin name 3.500000 signal E layer 1 400 690
+pin name 3.600000 signal I layer 1 500 870
+
+softcell 4 name bk4
+corners 4
+761 761 761 842 908 842 908 761 
+asplb 0.500000 aspub 2.000000
+class 0 orientations 0 1 2 3 4 5 6 7 
+orient 5
+pin name f signal A layer 0 761 812
+pin name a signal B layer 0 771 761
+pin name b signal F layer 0 781 761
+pin name e signal H layer 0 761 822
+pin name c signal E layer 0 791 761
+pin name d signal I layer 0 761 832
+
+softcell 5 name bk5
+corners 8
+230 321 230 616 539 616 539 530 816 530 816 346 539 346 539 321 
+asplb 0.500000 aspub 2.000000
+class 0 orientations 0 1 2 3 4 5 6 7 
+orient 5
+pin name h1 signal A layer 1 539 598
+pin name s1 signal A layer 0 539 349
+pin name s2 signal A layer 1 549 346
+pin name h4 signal B layer 1 328 321
+pin name h2 signal D layer 1 539 339
+pin name h3 signal C layer 1 490 321
+pin name h5 signal F layer 1 490 616
+
+pad 6 name P1
+corners 4
+930 475 930 495 950 495 950 475 
+orient 6
+restrict side R
+pin name 1 signal A layer 1 930 475
+
+pad 7 name P27
+corners 4
+460 930 460 950 480 950 480 930 
+orient 3
+restrict side T
+pin name 10 signal B layer 1 470 930
+
+pad 8 name P33
+corners 4
+-10 475 -10 495 10 495 10 475 
+orient 7
+restrict side L
+pin name 19 signal C layer 1 10 475
+
+pad 9 name P8
+corners 4
+480 20 480 40 500 40 500 20 
+orient 0
+pin name 26 signal A layer 1 490 40
+
+pad 10 name P9
+corners 4
+460 20 460 40 480 40 480 20 
+orient 0
+pin name 27 signal D layer 1 470 40
+
+pad 11 name P10
+corners 4
+440 20 440 40 460 40 460 20 
+orient 0
+pin name 28 signal F layer 1 450 20
+
+padgroup padgroup1 nopermute
+P8 nonfixed
+P9 nonfixed
+P10 nonfixed
+restrict side B

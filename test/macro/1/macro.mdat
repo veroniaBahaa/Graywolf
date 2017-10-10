@@ -1,0 +1,56 @@
+
+hardcell 1 name bk1
+corners 4
+250 270 250 460 730 460 730 270 
+class 0 orientations 0 1 2 3 4 5 6 7 
+orient 3
+pin name 1.100000 signal A layer 1 280 270
+pin name 1.200000 signal B layer 1 730 400
+pin name 1.300000 signal D layer 1 700 270
+pin name 1.400000 signal C layer 1 730 300
+pin name 1.500000 signal F layer 1 250 300
+
+pad 2 name P1
+corners 4
+740 355 740 375 760 375 760 355 
+orient 6
+restrict side R
+pin name 1 signal A layer 1 740 355
+
+pad 3 name P27
+corners 4
+480 470 480 490 500 490 500 470 
+orient 3
+restrict side T
+pin name 10 signal B layer 1 490 470
+
+pad 4 name P33
+corners 4
+220 355 220 375 240 375 240 355 
+orient 7
+restrict side L
+pin name 19 signal C layer 1 240 355
+
+pad 5 name P8
+corners 4
+500 240 500 260 520 260 520 240 
+orient 0
+pin name 26 signal A layer 1 510 260
+
+pad 6 name P9
+corners 4
+460 240 460 260 480 260 480 240 
+orient 0
+pin name 27 signal D layer 1 470 260
+
+pad 7 name P10
+corners 4
+480 240 480 260 500 260 500 240 
+orient 0
+pin name 28 signal F layer 1 490 240
+
+padgroup padgroup1 nopermute
+P8 nonfixed
+P9 nonfixed
+P10 nonfixed
+restrict side B

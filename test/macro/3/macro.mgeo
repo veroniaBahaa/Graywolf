@@ -1,0 +1,12 @@
+cell bk1 
+8 vertices 60 270 60 570 230 570 230 610 420 610 420 130 230 130 230 270 
+cell blk2 
+4 vertices 520 50 520 590 690 590 690 50 
+cell pad.macro.l 
+4 vertices  30 320 30 340 50 340 50 320
+cell pad.macro.t 
+4 vertices  365 620 365 640 385 640 385 620
+cell pad.macro.r 
+4 vertices  700 320 700 340 720 340 720 320
+cell pad.macro.b 
+4 vertices  345 20 345 40 405 40 405 20

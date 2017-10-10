@@ -1,0 +1,7 @@
+numtiles:3 numcells:3
+cell 2 x:1438 y:3208 offset:-598 -184
+l:-598 r:598 b:-184 t:184
+cell 3 x:1184 y:2328 offset:-368 -616
+l:-368 r:368 b:-616 t:616
+cell 4 x:414 y:2304 offset:-350 -1256
+l:-350 r:350 b:-1256 t:1256

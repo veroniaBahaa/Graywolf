@@ -1,0 +1,13 @@
+rows 3
+row -1 11    50 37
+row -1 63    50 89
+row -1 115    50 141
+
+/* 
+   The Tile and Macro Information:
+   numtiles 1
+   -2 -2   52 232
+
+   nummacros 0
+
+*/

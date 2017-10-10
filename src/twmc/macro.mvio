@@ -1,0 +1,12 @@
+numtiles:6 numcells:5
+cell 1 x:510 y:215 offset:-240 -95
+l:-240 r:240 b:-95 t:95
+cell 2 x:855 y:380 offset:-85 -270
+l:-85 r:85 b:-270 t:270
+cell 3 x:135 y:780 offset:-115 -100
+l:-115 r:115 b:-100 t:100
+cell 4 x:84 y:335 offset:-54 -55
+l:-54 r:54 b:-55 t:55
+cell 5 x:475 y:667 offset:-175 -247
+l:-175 r:175 b:-14 t:247
+l:-73 r:146 b:-247 t:-14

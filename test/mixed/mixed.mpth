@@ -1,0 +1,41 @@
+The paths:
+##############################################
+
+The nets:
+##############################################
+net   1:S283.TTER__S1213 xspan:1456 yspan:588 length:2044 numpins:3
+net   2:S277.TTER__S1218 xspan:284 yspan:504 length:788 numpins:3
+net   3:S251.TTER__S1129 xspan:446 yspan:1617 length:2063 numpins:5
+net   4:S256.P15A xspan:1200 yspan:2056 length:3256 numpins:3
+net   5:S293.TTER__S1180 xspan:454 yspan:1941 length:2395 numpins:3
+net   6:S299.ETTER__S525 xspan:494 yspan:1601 length:2095 numpins:3
+net   7:S302.ETTER__S517 xspan:438 yspan:1429 length:1867 numpins:3
+net   8:S305.ETTER__S509 xspan:462 yspan:1685 length:2147 numpins:3
+net   9:S245.TTER__S1266 xspan:1124 yspan:2323 length:3447 numpins:3
+net  10:S306.TTER__S1269 xspan:1124 yspan:2305 length:3429 numpins:3
+net  11:XXXX xspan:176 yspan:1489 length:1665 numpins:2
+net  12:S247.TTER__S1262 xspan:904 yspan:223 length:1127 numpins:2
+net  13:S248.TTER__S1260 xspan:62 yspan:1 length:63 numpins:2
+net  14:S298.TTER__S1161 xspan:722 yspan:2792 length:3514 numpins:2
+net  15:S252.ETTER__S748 xspan:470 yspan:577 length:1047 numpins:2
+net  16:S259.ETTER__S742 xspan:722 yspan:2564 length:3286 numpins:2
+net  17:S292.TTER__S1192 xspan:1638 yspan:1523 length:3161 numpins:2
+net  18:S258.ETTER__S745 xspan:486 yspan:1105 length:1591 numpins:2
+net  19:S249.ETTER__S751 xspan:478 yspan:49 length:527 numpins:2
+net  20:S288.ETTER__S562 xspan:776 yspan:580 length:1356 numpins:2
+net  21:S287.ETTER__S570 xspan:338 yspan:1889 length:2227 numpins:2
+net  22:S262.TTER__S1244 xspan:284 yspan:40 length:324 numpins:2
+net  23:S263.TTER__S1243 xspan:0 yspan:26 length:26 numpins:2
+net  24:S267.ETTER__S600 xspan:256 yspan:580 length:836 numpins:2
+net  25:S264.ETTER__S608 xspan:528 yspan:580 length:1108 numpins:2
+net  26:S289.ETTER__S816 xspan:0 yspan:26 length:26 numpins:2
+net  27:S255.TTER__S1127 xspan:0 yspan:26 length:26 numpins:2
+net  28:S273.ETTER__S592 xspan:16 yspan:917 length:933 numpins:2
+net  29:S266.ETTER__S857 xspan:284 yspan:1032 length:1316 numpins:2
+net  30:S304.ETTER__S643 xspan:0 yspan:26 length:26 numpins:2
+net  31:S301.ETTER__S645 xspan:0 yspan:26 length:26 numpins:2
+net  32:S300.ETTER__S647 xspan:284 yspan:784 length:1068 numpins:2
+net  33:S295.ETTER__S922 xspan:284 yspan:1280 length:1564 numpins:2
+net  34:S297.ETTER__S654 xspan:64 yspan:0 length:64 numpins:2
+net  35:S294.TTER__S1178 xspan:8 yspan:2021 length:2029 numpins:2
+net  36:TW_PASS_THRU xspan:16 yspan:0 length:16 numpins:3

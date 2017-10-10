@@ -1,0 +1,10 @@
+/home/veronia/EDA/graywolf-master/src/mincut/CMakeFiles/Mincut.dir
+/home/veronia/EDA/graywolf-master/src/twmc/CMakeFiles/TimberWolfMC.dir
+/home/veronia/EDA/graywolf-master/src/twsc/CMakeFiles/TimberWolfSC.dir
+/home/veronia/EDA/graywolf-master/src/genrows/CMakeFiles/genrows.dir
+/home/veronia/EDA/graywolf-master/src/date/CMakeFiles/getdate.dir
+/home/veronia/EDA/graywolf-master/src/twflow/CMakeFiles/graywolf.dir
+/home/veronia/EDA/graywolf-master/src/mc_compact/CMakeFiles/mc_compact.dir
+/home/veronia/EDA/graywolf-master/script/CMakeFiles/run.dir
+/home/veronia/EDA/graywolf-master/src/syntax/CMakeFiles/syntax.dir
+/home/veronia/EDA/graywolf-master/src/Ylib/CMakeFiles/ycadgraywolf.dir

@@ -1,0 +1,48 @@
+net B2
+pin 00##BRISTLE x 20 y 88 cell 3 layer 1 PinOrEquiv 1
+pin pin1 x 0 y 56 cell 1 layer 0 PinOrEquiv 1
+
+net B5
+pin 00##BRISTLE x 88 y 42 cell 4 layer 1 PinOrEquiv 1
+pin pin2 x 106 y 0 cell 1 layer 0 PinOrEquiv 1
+
+net B1
+pin 00##BRISTLE x 88 y 18 cell 4 layer 1 PinOrEquiv 1
+pin pin3 x 104 y 0 cell 1 layer 0 PinOrEquiv 1
+
+net CONT1
+pin 00##BRISTLE x -2 y 67 cell 2 layer 1 PinOrEquiv 1
+pin pin4 x 0 y 36 cell 1 layer 0 PinOrEquiv 1
+
+net B3
+pin 00##BRISTLE x -2 y 20 cell 2 layer 1 PinOrEquiv 1
+pin pin5 x 0 y 18 cell 1 layer 0 PinOrEquiv 1
+
+net B4
+pin 00##BRISTLE x 42 y -2 cell 5 layer 1 PinOrEquiv 1
+pin pin6 x 110 y 0 cell 1 layer 0 PinOrEquiv 1
+
+net B6
+pin 00##BRISTLE x 44 y 88 cell 3 layer 1 PinOrEquiv 1
+pin pin7 x 0 y 58 cell 1 layer 0 PinOrEquiv 1
+
+net B7
+pin 00##BRISTLE x -2 y 44 cell 2 layer 1 PinOrEquiv 1
+pin pin8 x 0 y 27 cell 1 layer 0 PinOrEquiv 1
+
+net IN1
+pin 00##BRISTLE x 65 y -2 cell 5 layer 1 PinOrEquiv 1
+pin pin9 x 108 y 0 cell 1 layer 0 PinOrEquiv 1
+
+net B0
+pin 00##BRISTLE x 18 y -2 cell 5 layer 1 PinOrEquiv 1
+pin pin10 x 112 y 0 cell 1 layer 0 PinOrEquiv 1
+
+net MCLOCK
+pin 00##BRISTLE x 67 y 88 cell 3 layer 1 PinOrEquiv 1
+pin pin11 x 22 y 76 cell 1 layer 0 PinOrEquiv 1
+
+net MCLEAR
+pin 00##BRISTLE x 88 y 65 cell 4 layer 1 PinOrEquiv 1
+pin pin12 x 78 y 38 cell 1 layer 0 PinOrEquiv 1
+

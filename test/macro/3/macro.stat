@@ -1,0 +1,14 @@
+syntax version:v1.1 date:Mon May 25 21:11:10 EDT 1992
+TIMESTAMP:Thu Apr 20 12:38:05 2017
+Statistics for macro:
+num_stdcells:0
+num_macros:2
+num_instances:3
+num_pads:7
+num_nets:7
+num_pins:21
+num_implicit_feeds:0
+num_equivs:1
+num_unequivs:0
+num_ports:21
+macro_area:3.252e+05

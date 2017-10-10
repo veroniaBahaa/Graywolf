@@ -1,0 +1,11 @@
+total_row_length 144
+actual_row_height 26
+channel_separation 26
+min_length 18
+core -2 -2 52 154
+grid 0 0
+num_macro 0
+feed_length 4
+spacing 1
+numtiles 1
+0 -2 -2 52 232 0 1 0 3 26 0 26 18 1 52 0

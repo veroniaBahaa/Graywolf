@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/genrows.dir/draw.c.o CMakeFiles/genrows.dir/genrows.c.o CMakeFiles/genrows.dir/main.c.o CMakeFiles/genrows.dir/merge.c.o CMakeFiles/genrows.dir/readpar.c.o CMakeFiles/genrows.dir/__/date/date.c.o  -o genrows -rdynamic ../Ylib/libycadgraywolf.so -lX11 -lm -Wl,-rpath,/home/veronia/EDA/graywolf-master/src/Ylib: 

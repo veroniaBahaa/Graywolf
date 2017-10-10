@@ -1,0 +1,173 @@
+net S283.TTER__S1213
+pin P#11 x 1148 y -24 cell 8 layer 1 PinOrEquiv 1
+pin P#12 x -24 y 124 cell 5 layer 1 PinOrEquiv 1
+pin pin1 x -304 y 562 cell 1 layer 0 PinOrEquiv 1
+
+net S277.TTER__S1218
+pin P#1 x -24 y 68 cell 5 layer 1 PinOrEquiv 1
+pin P#13 x -24 y 380 cell 5 layer 1 PinOrEquiv 1
+pin pin2 x -304 y 570 cell 1 layer 0 PinOrEquiv 1
+
+net S251.TTER__S1129
+pin P#13 x -24 y 2684 cell 5 layer 1 PinOrEquiv 1
+pin P#10 x 764 y 3128 cell 4 layer 1 PinOrEquiv 1
+pin P#10  x 64  y 3128  cell 4 layer 1 PinOrEquiv 0
+pin P#14 x 764 y 2584 cell 4 layer 1 PinOrEquiv 1
+pin P#14  x 64  y 2584  cell 4 layer 1 PinOrEquiv 0
+pin P#22 x 764 y 2072 cell 4 layer 1 PinOrEquiv 1
+pin P#22  x 64  y 2072  cell 4 layer 1 PinOrEquiv 0
+pin pin3 x -28 y 1509 cell 1 layer 0 PinOrEquiv 1
+
+net S256.P15A
+pin P#13 x 1020 y 3600 cell 6 layer 1 PinOrEquiv 1
+pin P#28 x 764 y 1544 cell 4 layer 1 PinOrEquiv 1
+pin P#28  x 64  y 1544  cell 4 layer 1 PinOrEquiv 0
+pin pin4 x 1618 y 1725 cell 1 layer 0 PinOrEquiv 1
+
+net S293.TTER__S1180
+pin P#9 x -24 y 3452 cell 5 layer 1 PinOrEquiv 1
+pin P#30 x 64 y 1528 cell 4 layer 1 PinOrEquiv 1
+pin P#30  x 764  y 1528  cell 4 layer 1 PinOrEquiv 0
+pin pin5 x -36 y 1509 cell 1 layer 0 PinOrEquiv 1
+
+net S299.ETTER__S525
+pin P#13 x -24 y 2172 cell 5 layer 1 PinOrEquiv 1
+pin P#12 x 64 y 3112 cell 4 layer 1 PinOrEquiv 1
+pin P#12  x 764  y 3112  cell 4 layer 1 PinOrEquiv 0
+pin pin6 x -76 y 1509 cell 1 layer 0 PinOrEquiv 1
+
+net S302.ETTER__S517
+pin P#13 x -24 y 2940 cell 5 layer 1 PinOrEquiv 1
+pin P#16 x 64 y 2600 cell 4 layer 1 PinOrEquiv 1
+pin P#16  x 764  y 2600  cell 4 layer 1 PinOrEquiv 0
+pin pin7 x -20 y 1509 cell 1 layer 0 PinOrEquiv 1
+
+net S305.ETTER__S509
+pin P#13 x -24 y 3196 cell 5 layer 1 PinOrEquiv 1
+pin P#20 x 64 y 2056 cell 4 layer 1 PinOrEquiv 1
+pin P#20  x 764  y 2056  cell 4 layer 1 PinOrEquiv 0
+pin pin8 x -44 y 1509 cell 1 layer 0 PinOrEquiv 1
+
+net S245.TTER__S1266
+pin P#8 x -24 y 1148 cell 5 layer 1 PinOrEquiv 1
+pin P#10 x 816 y 2935 cell 3 layer 1 PinOrEquiv 1
+pin pin9 x -304 y 610 cell 1 layer 0 PinOrEquiv 1
+
+net S306.TTER__S1269
+pin P#8 x -24 y 892 cell 5 layer 1 PinOrEquiv 1
+pin P#11 x 816 y 2909 cell 3 layer 1 PinOrEquiv 1
+pin pin10 x -304 y 602 cell 1 layer 0 PinOrEquiv 1
+
+net XXXX
+pin P#11 x 1438 y 3208 cell 2 layer 1 PinOrEquiv 1
+pin pin11 x 1618 y 1717 cell 1 layer 0 PinOrEquiv 1
+
+net S247.TTER__S1262
+pin P#2 x 816 y 1734 cell 3 layer 1 PinOrEquiv 1
+pin pin12 x -84 y 1509 cell 1 layer 0 PinOrEquiv 1
+
+net S248.TTER__S1260
+pin P#1 x 1552 y 1734 cell 3 layer 1 PinOrEquiv 1
+pin pin13 x 1618 y 1733 cell 1 layer 0 PinOrEquiv 1
+
+net S298.TTER__S1161
+pin P#6 x 764 y 3380 cell 4 layer 1 PinOrEquiv 1
+pin P#6  x 64  y 3380  cell 4 layer 1 PinOrEquiv 0
+pin pin14 x -304 y 586 cell 1 layer 0 PinOrEquiv 1
+
+net S252.ETTER__S748
+pin P#24 x 64 y 2088 cell 4 layer 1 PinOrEquiv 1
+pin P#24  x 764  y 2088  cell 4 layer 1 PinOrEquiv 0
+pin pin15 x -52 y 1509 cell 1 layer 0 PinOrEquiv 1
+
+net S259.ETTER__S742
+pin P#8 x 764 y 3144 cell 4 layer 1 PinOrEquiv 1
+pin P#8  x 64  y 3144  cell 4 layer 1 PinOrEquiv 0
+pin pin16 x -304 y 578 cell 1 layer 0 PinOrEquiv 1
+
+net S292.TTER__S1192
+pin P#14 x -24 y 180 cell 5 layer 1 PinOrEquiv 1
+pin pin17 x 1618 y 1701 cell 1 layer 0 PinOrEquiv 1
+
+net S258.ETTER__S745
+pin P#18 x 764 y 2616 cell 4 layer 1 PinOrEquiv 1
+pin P#18  x 64  y 2616  cell 4 layer 1 PinOrEquiv 0
+pin pin18 x -68 y 1509 cell 1 layer 0 PinOrEquiv 1
+
+net S249.ETTER__S751
+pin P#26 x 64 y 1560 cell 4 layer 1 PinOrEquiv 1
+pin P#26  x 764  y 1560  cell 4 layer 1 PinOrEquiv 0
+pin pin19 x -60 y 1509 cell 1 layer 0 PinOrEquiv 1
+
+net S288.ETTER__S562
+pin P#13 x 2556 y 3600 cell 6 layer 1 PinOrEquiv 1
+pin pin20 x 1784 y 3018 cell 1 layer 0 PinOrEquiv 1
+
+net S287.ETTER__S570
+pin P#13 x 1276 y 3600 cell 6 layer 1 PinOrEquiv 1
+pin pin21 x 1618 y 1709 cell 1 layer 0 PinOrEquiv 1
+
+net S262.TTER__S1244
+pin P#13 x -24 y 636 cell 5 layer 1 PinOrEquiv 1
+pin pin22 x -304 y 594 cell 1 layer 0 PinOrEquiv 1
+
+net S263.TTER__S1243
+pin P#13 x 2428 y -24 cell 8 layer 1 PinOrEquiv 1
+pin pin23 x 2432 y 0 cell 1 layer 0 PinOrEquiv 1
+
+net S267.ETTER__S600
+pin P#13 x 1532 y 3600 cell 6 layer 1 PinOrEquiv 1
+pin pin24 x 1792 y 3018 cell 1 layer 0 PinOrEquiv 1
+
+net S264.ETTER__S608
+pin P#13 x 2300 y 3600 cell 6 layer 1 PinOrEquiv 1
+pin pin25 x 1776 y 3018 cell 1 layer 0 PinOrEquiv 1
+
+net S289.ETTER__S816
+pin P#13 x 2172 y -24 cell 8 layer 1 PinOrEquiv 1
+pin pin26 x 2176 y 0 cell 1 layer 0 PinOrEquiv 1
+
+net S255.TTER__S1127
+pin P#13 x 1660 y -24 cell 8 layer 1 PinOrEquiv 1
+pin pin27 x 1664 y 0 cell 1 layer 0 PinOrEquiv 1
+
+net S273.ETTER__S592
+pin P#13 x -24 y 2428 cell 5 layer 1 PinOrEquiv 1
+pin pin28 x -4 y 1509 cell 1 layer 0 PinOrEquiv 1
+
+net S266.ETTER__S857
+pin P#6 x -24 y 1660 cell 5 layer 1 PinOrEquiv 1
+pin pin29 x -304 y 626 cell 1 layer 0 PinOrEquiv 1
+
+net S304.ETTER__S643
+pin P#6 x 1916 y -24 cell 8 layer 1 PinOrEquiv 1
+pin pin30 x 1920 y 0 cell 1 layer 0 PinOrEquiv 1
+
+net S301.ETTER__S645
+pin P#6 x 1404 y -24 cell 8 layer 1 PinOrEquiv 1
+pin pin31 x 1408 y 0 cell 1 layer 0 PinOrEquiv 1
+
+net S300.ETTER__S647
+pin P#6 x -24 y 1404 cell 5 layer 1 PinOrEquiv 1
+pin pin32 x -304 y 618 cell 1 layer 0 PinOrEquiv 1
+
+net S295.ETTER__S922
+pin P#6 x -24 y 1916 cell 5 layer 1 PinOrEquiv 1
+pin pin33 x -304 y 634 cell 1 layer 0 PinOrEquiv 1
+
+net S297.ETTER__S654
+pin P#7 x 3600 y 1828 cell 7 layer 1 PinOrEquiv 1
+pin pin34 x 3540 y 1826 cell 1 layer 0 PinOrEquiv 1
+
+net S294.TTER__S1178
+pin P#8 x -24 y 3532 cell 5 layer 1 PinOrEquiv 1
+pin pin35 x -12 y 1509 cell 1 layer 0 PinOrEquiv 1
+
+net TW_PASS_THRU
+pin 3 x 1422 y 3392 cell 2 layer 1 PinOrEquiv 1
+pin 3  x 1422  y 3024  cell 2 layer 1 PinOrEquiv 0
+pin 2 x 1430 y 3392 cell 2 layer 1 PinOrEquiv 1
+pin 2  x 1430  y 3024  cell 2 layer 1 PinOrEquiv 0
+pin 1 x 1438 y 3392 cell 2 layer 1 PinOrEquiv 1
+pin 1  x 1438  y 3024  cell 2 layer 1 PinOrEquiv 0
+

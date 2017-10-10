@@ -1,0 +1,17 @@
+syntax version:v1.1 date:Mon May 25 21:11:10 EDT 1992
+TIMESTAMP:Thu Apr 20 13:36:59 2017
+Statistics for mixed:
+num_stdcells:180
+num_macros:3
+num_instances:3
+num_pads:28
+num_nets:280
+num_pins:794
+num_implicit_feeds:3
+num_equivs:631
+num_unequivs:0
+num_ports:47
+macro_area:3.105e+06
+tot_length:38880
+num_soft:1
+cell_height:112

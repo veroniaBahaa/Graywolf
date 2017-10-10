@@ -1,0 +1,175 @@
+cluster 1 name core
+corners 4 0 0   0 86  86 86   86 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal B2
+softpin name pin2 signal B5
+softpin name pin3 signal B1
+softpin name pin4 signal CONT1
+softpin name pin5 signal B3
+softpin name pin6 signal B4
+softpin name pin7 signal B6
+softpin name pin8 signal B7
+softpin name pin9 signal IN1
+softpin name pin10 signal B0
+softpin name pin11 signal MCLOCK
+softpin name pin12 signal MCLEAR
+
+instance core_L
+corners 6 0 0 0 98 49 98 49 49 98 49 98 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal B2
+softpin name pin2 signal B5
+softpin name pin3 signal B1
+softpin name pin4 signal CONT1
+softpin name pin5 signal B3
+softpin name pin6 signal B4
+softpin name pin7 signal B6
+softpin name pin8 signal B7
+softpin name pin9 signal IN1
+softpin name pin10 signal B0
+softpin name pin11 signal MCLOCK
+softpin name pin12 signal MCLEAR
+
+instance core_T
+corners 8 43 0 43 43 0 43 0 86 129 86 129 43 86 43 86 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal B2
+softpin name pin2 signal B5
+softpin name pin3 signal B1
+softpin name pin4 signal CONT1
+softpin name pin5 signal B3
+softpin name pin6 signal B4
+softpin name pin7 signal B6
+softpin name pin8 signal B7
+softpin name pin9 signal IN1
+softpin name pin10 signal B0
+softpin name pin11 signal MCLOCK
+softpin name pin12 signal MCLEAR
+
+instance core_L2
+corners 6 0 0 0 76 76 76 76 38 114 38 114 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal B2
+softpin name pin2 signal B5
+softpin name pin3 signal B1
+softpin name pin4 signal CONT1
+softpin name pin5 signal B3
+softpin name pin6 signal B4
+softpin name pin7 signal B6
+softpin name pin8 signal B7
+softpin name pin9 signal IN1
+softpin name pin10 signal B0
+softpin name pin11 signal MCLOCK
+softpin name pin12 signal MCLEAR
+
+pad 2 name #B0 
+corners 4 
+3 -28 3 -2 7 -2 7 -28 
+orient 0 
+restrict side B 
+pin name 00##BRISTLE signal B0 layer 1 4 -2 
+
+pad 3 name #B4 
+corners 4 
+12 -28 12 -2 16 -2 16 -28 
+orient 0 
+restrict side B 
+pin name 00##BRISTLE signal B4 layer 1 13 -2 
+
+pad 4 name #IN1 
+corners 4 
+21 -28 21 -2 25 -2 25 -28 
+orient 0 
+restrict side B 
+pin name 00##BRISTLE signal IN1 layer 1 22 -2 
+
+pad 5 name #B3 
+corners 4 
+-28 3 -28 7 -2 7 -2 3 
+orient 7 
+restrict side L 
+pin name 00##BRISTLE signal B3 layer 1 -2 4 
+
+pad 6 name #B7 
+corners 4 
+-28 12 -28 16 -2 16 -2 12 
+orient 7 
+restrict side L 
+pin name 00##BRISTLE signal B7 layer 1 -2 13 
+
+pad 7 name #MCY 
+corners 4 
+-28 21 -28 25 -2 25 -2 21 
+orient 7 
+restrict side L 
+pin name 00##BRISTLE signal CONT1 layer 1 -2 22 
+
+pad 8 name #B1 
+corners 4 
+30 3 30 7 56 7 56 3 
+orient 6 
+restrict side R 
+pin name 00##BRISTLE signal B1 layer 1 30 4 
+
+pad 9 name #B5 
+corners 4 
+30 12 30 16 56 16 56 12 
+orient 6 
+restrict side R 
+pin name 00##BRISTLE signal B5 layer 1 30 13 
+
+pad 10 name #MCLEAR 
+corners 4 
+30 21 30 25 56 25 56 21 
+orient 6 
+restrict side R 
+pin name 00##BRISTLE signal MCLEAR layer 1 30 22 
+
+pad 11 name #B2 
+corners 4 
+3 30 3 56 7 56 7 30 
+orient 3 
+restrict side T 
+pin name 00##BRISTLE signal B2 layer 1 6 30 
+
+pad 12 name #B6 
+corners 4 
+12 30 12 56 16 56 16 30 
+orient 3 
+restrict side T 
+pin name 00##BRISTLE signal B6 layer 1 15 30 
+
+pad 13 name #MCLOCK 
+corners 4 
+21 30 21 56 25 56 25 30 
+orient 3 
+restrict side T 
+pin name 00##BRISTLE signal MCLOCK layer 1 24 30 
+
+padgroup padgroup1 nopermute 
+#B0 fixed 
+#B4 fixed 
+#IN1 fixed 
+restrict side B 
+
+padgroup padgroup2 nopermute 
+#B3 fixed 
+#B7 fixed 
+#MCY fixed 
+restrict side L 
+
+padgroup padgroup3 nopermute 
+#B1 fixed 
+#B5 fixed 
+#MCLEAR fixed 
+restrict side R 
+
+padgroup padgroup4 nopermute 
+#B2 fixed 
+#B6 fixed 
+#MCLOCK fixed 
+restrict side T 
